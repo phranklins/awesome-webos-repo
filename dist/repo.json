@@ -132,6 +132,28 @@
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/dts-restore-plus.html"
     },
     {
+      "id": "org.ohmybahgosh.entware",
+      "title": "Entware",
+      "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
+      "manifest": {
+        "id": "org.ohmybahgosh.entware",
+        "version": "2.15.1",
+        "type": "web",
+        "title": "Entware",
+        "appDescription": "Install and manage Entware on a rooted LG TV",
+        "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
+        "sourceUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/download/v2.15.1/org.ohmybahgosh.entware_2.15.1_all.ipk",
+        "ipkHash": {
+          "sha256": "112a6e8cfccd8233e015d35bd306e5ce179e927933df1954f995f054c4e5bce3"
+        },
+        "ipkSize": 194444
+      },
+      "shortDescription": "Install and manage Entware on a rooted LG TV",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webos-entware-installer.html"
+    },
+    {
       "id": "io.freemytv",
       "title": "Free My TV",
       "iconUri": "https://freemytv.io/assets/icon-512.png",
@@ -216,28 +238,6 @@
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/hearth.html"
     },
     {
-      "id": "com.ecklf.luma",
-      "title": "Luma",
-      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/app-icon-large.png",
-      "manifest": {
-        "id": "com.ecklf.luma",
-        "version": "2.17.0",
-        "type": "native",
-        "title": "Luma",
-        "appDescription": "A remote-first native webOS launcher.",
-        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/app-icon-large.png",
-        "sourceUrl": "https://github.com/ecklf/lg-luma",
-        "rootRequired": true,
-        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/com.ecklf.luma_2.17.0_arm.ipk",
-        "ipkHash": {
-          "sha256": "b336228a2551917974f1209b22f59ee03a296cf3260f7dcf2d624c777e50b33f"
-        },
-        "ipkSize": 41848212
-      },
-      "shortDescription": "A remote-first native webOS launcher.",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
-    },
-    {
       "id": "org.ohmybahgosh.lgusb2eth0",
       "title": "LG-USB-2-ETH0",
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
@@ -258,6 +258,28 @@
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
+    },
+    {
+      "id": "com.ecklf.luma",
+      "title": "Luma",
+      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/app-icon-large.png",
+      "manifest": {
+        "id": "com.ecklf.luma",
+        "version": "2.17.0",
+        "type": "native",
+        "title": "Luma",
+        "appDescription": "A remote-first native webOS launcher.",
+        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/app-icon-large.png",
+        "sourceUrl": "https://github.com/ecklf/lg-luma",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v2.17.0/com.ecklf.luma_2.17.0_arm.ipk",
+        "ipkHash": {
+          "sha256": "b336228a2551917974f1209b22f59ee03a296cf3260f7dcf2d624c777e50b33f"
+        },
+        "ipkSize": 41848212
+      },
+      "shortDescription": "A remote-first native webOS launcher.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
     },
     {
       "id": "com.ammar027.lumen",
@@ -303,27 +325,6 @@
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/magic-mapper.html"
     },
     {
-      "id": "io.github.ihtisham1211.nativetv",
-      "title": "Native Tv",
-      "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
-      "manifest": {
-        "id": "io.github.ihtisham1211.nativetv",
-        "version": "0.123.0",
-        "type": "web",
-        "title": "Native Tv",
-        "appDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
-        "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
-        "sourceUrl": "https://github.com/ihtisham1211/native-tv",
-        "rootRequired": true,
-        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.123.0_all.ipk",
-        "ipkHash": {
-          "sha256": "bda46b8efaa3d8bfc2afaa8007c70f82226126ec73f035ab87ce95e6b9dd01aa"
-        }
-      },
-      "shortDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-tv.html"
-    },
-    {
       "id": "com.sostk.nativejelly",
       "title": "Native Jelly",
       "iconUri": "https://raw.githubusercontent.com/sostk/native-jelly/main/pkg/icon160.png",
@@ -345,6 +346,27 @@
       },
       "shortDescription": "Unofficial native Jellyfin client - not affiliated with Jellyfin",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-jelly.html"
+    },
+    {
+      "id": "io.github.ihtisham1211.nativetv",
+      "title": "Native Tv",
+      "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
+      "manifest": {
+        "id": "io.github.ihtisham1211.nativetv",
+        "version": "0.123.0",
+        "type": "web",
+        "title": "Native Tv",
+        "appDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
+        "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
+        "sourceUrl": "https://github.com/ihtisham1211/native-tv",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.123.0_all.ipk",
+        "ipkHash": {
+          "sha256": "bda46b8efaa3d8bfc2afaa8007c70f82226126ec73f035ab87ce95e6b9dd01aa"
+        }
+      },
+      "shortDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-tv.html"
     },
     {
       "id": "space.nuvio.native.legacy",
@@ -562,28 +584,6 @@
       },
       "shortDescription": "Runs gen1recomp (Pokemon Gen 1 Recompilation Project) on webOS. Downloads the game for you; bring your own ROM.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webmon.html"
-    },
-    {
-      "id": "org.ohmybahgosh.entware",
-      "title": "Entware",
-      "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
-      "manifest": {
-        "id": "org.ohmybahgosh.entware",
-        "version": "2.15.1",
-        "type": "web",
-        "title": "Entware",
-        "appDescription": "Install and manage Entware on a rooted LG TV",
-        "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
-        "sourceUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER",
-        "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/download/v2.15.1/org.ohmybahgosh.entware_2.15.1_all.ipk",
-        "ipkHash": {
-          "sha256": "112a6e8cfccd8233e015d35bd306e5ce179e927933df1954f995f054c4e5bce3"
-        },
-        "ipkSize": 194444
-      },
-      "shortDescription": "Install and manage Entware on a rooted LG TV",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webos-entware-installer.html"
     },
     {
       "id": "youtube.leanback.v4",
