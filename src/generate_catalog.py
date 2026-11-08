@@ -1,0 +1,258 @@
+#!/usr/bin/env python3
+"""Build dist/repo.json for the Homebrew Channel from catalog/apps.yml.
+
+Each app is fetched independently. Failures are logged and skipped so one
+broken upstream does not stop the rest of the catalog.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import logging
+import sys
+import urllib.error
+import urllib.request
+from pathlib import Path
+from typing import Any
+from urllib.parse import urljoin, urlparse
+
+import yaml
+from jsonschema import Draft202012Validator
+from referencing import Registry, Resource
+
+ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_APPS = ROOT / "catalog" / "apps.yml"
+DEFAULT_OUT = ROOT / "dist" / "repo.json"
+DEFAULT_REPO_SCHEMA = ROOT / "schemas" / "HomebrewRepository.schema.json"
+DEFAULT_MANIFEST_SCHEMA = ROOT / "schemas" / "HomebrewPackageManifest.schema.json"
+
+USER_AGENT = "awesome-webos-catalog-generator/1.0 (+https://github.com/tolgakurtuluss/awesome-webos)"
+TIMEOUT_SECONDS = 45
+
+log = logging.getLogger("generate_catalog")
+
+
+def fetch_json(url: str) -> Any:
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": USER_AGENT, "Accept": "application/json,text/plain,*/*"},
+    )
+    with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
+        charset = resp.headers.get_content_charset() or "utf-8"
+        return json.loads(resp.read().decode(charset))
+
+
+def absolute_url(base: str, maybe_relative: str | None) -> str | None:
+    if not maybe_relative:
+        return maybe_relative
+    if urlparse(maybe_relative).scheme:
+        return maybe_relative
+    return urljoin(base, maybe_relative)
+
+
+def load_apps_config(path: Path) -> dict[str, Any]:
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict) or "apps" not in data:
+        raise SystemExit(f"{path} must contain an 'apps' list")
+    return data
+
+
+def notice_text(app: dict[str, Any], config: dict[str, Any]) -> str | None:
+    notice = app.get("notice")
+    if notice == "youtube_collision":
+        return config.get("youtube_collision_note")
+    if isinstance(notice, str) and notice.strip():
+        return notice.strip()
+    return None
+
+
+def package_from_manifest(
+    manifest: dict[str, Any],
+    *,
+    manifest_url: str | None,
+    title_override: str | None,
+    short_description: str | None,
+) -> dict[str, Any]:
+    title = title_override or manifest.get("title")
+    icon = manifest.get("iconUri")
+    pkg_id = manifest.get("id")
+    if not pkg_id or not title or not icon:
+        raise ValueError("manifest missing required id/title/iconUri")
+
+    # Prefer inline manifest (Channel >= 0.3.0). Resolve relative ipkUrl against
+    # the manifest URL when we have one.
+    resolved = dict(manifest)
+    if manifest_url and resolved.get("ipkUrl"):
+        resolved["ipkUrl"] = absolute_url(manifest_url, resolved["ipkUrl"])
+
+    package: dict[str, Any] = {
+        "id": pkg_id,
+        "title": title,
+        "iconUri": icon,
+        "manifest": resolved,
+    }
+    if short_description:
+        package["shortDescription"] = short_description
+    elif manifest.get("appDescription"):
+        package["shortDescription"] = manifest["appDescription"]
+    return package
+
+
+def extract_from_repo_json(
+    repo: dict[str, Any],
+    package_id: str,
+    repo_url: str,
+) -> tuple[dict[str, Any], str | None]:
+    packages = repo.get("packages")
+    if not isinstance(packages, list):
+        raise ValueError("repo JSON has no packages array")
+
+    matches = [p for p in packages if isinstance(p, dict) and p.get("id") == package_id]
+    if not matches:
+        raise ValueError(f"package id {package_id!r} not found in {repo_url}")
+    entry = matches[0]
+
+    if entry.get("manifest") and isinstance(entry["manifest"], dict):
+        return entry["manifest"], None
+
+    manifest_url = entry.get("manifestUrl")
+    if not manifest_url:
+        raise ValueError(f"{package_id}: repo entry has neither manifest nor manifestUrl")
+    manifest_url = absolute_url(repo_url, manifest_url)
+    assert manifest_url is not None
+    return fetch_json(manifest_url), manifest_url
+
+
+def build_package(app: dict[str, Any], config: dict[str, Any]) -> dict[str, Any]:
+    source = app.get("source") or {}
+    source_type = source.get("type")
+    package_id = app["id"]
+    title_override = app.get("title")
+    short = notice_text(app, config)
+
+    if source_type == "manifest_url":
+        url = source["url"]
+        manifest = fetch_json(url)
+        if manifest.get("id") and manifest["id"] != package_id:
+            raise ValueError(
+                f"manifest id {manifest.get('id')!r} does not match expected {package_id!r}"
+            )
+        return package_from_manifest(
+            manifest,
+            manifest_url=url,
+            title_override=title_override,
+            short_description=short,
+        )
+
+    if source_type == "repo_json":
+        url = source["url"]
+        repo = fetch_json(url)
+        manifest, manifest_url = extract_from_repo_json(repo, package_id, url)
+        if manifest.get("id") and manifest["id"] != package_id:
+            raise ValueError(
+                f"manifest id {manifest.get('id')!r} does not match expected {package_id!r}"
+            )
+        # If the repo entry already had icon/title at top level, prefer those
+        # when the inline manifest is missing iconUri (rare).
+        if not manifest.get("iconUri"):
+            for pkg in repo.get("packages") or []:
+                if pkg.get("id") == package_id and pkg.get("iconUri"):
+                    manifest = {**manifest, "iconUri": pkg["iconUri"]}
+                    break
+        return package_from_manifest(
+            manifest,
+            manifest_url=manifest_url or url,
+            title_override=title_override,
+            short_description=short,
+        )
+
+    raise ValueError(f"unknown source.type {source_type!r}")
+
+
+def validate_repo(repo: dict[str, Any], repo_schema_path: Path, manifest_schema_path: Path) -> None:
+    repo_schema = json.loads(repo_schema_path.read_text(encoding="utf-8"))
+    manifest_schema = json.loads(manifest_schema_path.read_text(encoding="utf-8"))
+
+    resources = [
+        (repo_schema.get("$id") or "HomebrewRepository.schema", repo_schema),
+        (manifest_schema.get("$id") or "HomebrewPackageManifest.schema", manifest_schema),
+        ("HomebrewPackageManifest.schema", manifest_schema),
+        ("https://webosbrew.org/schema/HomebrewPackageManifest.schema", manifest_schema),
+    ]
+    registry = Registry()
+    for uri, schema in resources:
+        registry = registry.with_resource(uri, Resource.from_contents(schema))
+
+    Draft202012Validator(repo_schema, registry=registry).validate(repo)
+
+    manifest_validator = Draft202012Validator(manifest_schema)
+    for pkg in repo.get("packages") or []:
+        if "manifest" in pkg:
+            manifest_validator.validate(pkg["manifest"])
+
+
+def generate(
+    apps_path: Path,
+    out_path: Path,
+    repo_schema_path: Path,
+    manifest_schema_path: Path,
+) -> int:
+    config = load_apps_config(apps_path)
+    apps = config["apps"]
+    packages: list[dict[str, Any]] = []
+    failures: list[str] = []
+    seen_ids: dict[str, str] = {}
+
+    for app in apps:
+        name = app.get("name", app.get("id", "?"))
+        pkg_id = app.get("id", "?")
+        try:
+            package = build_package(app, config)
+            if pkg_id in seen_ids:
+                log.warning(
+                    "Duplicate package id %s (%s and %s). Channel may only show one; "
+                    "kept both entries as configured.",
+                    pkg_id,
+                    seen_ids[pkg_id],
+                    name,
+                )
+            seen_ids[pkg_id] = name
+            packages.append(package)
+            log.info("OK  %s (%s)", name, package["id"])
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError, json.JSONDecodeError) as exc:
+            msg = f"SKIP {name} ({pkg_id}): {exc}"
+            log.error(msg)
+            failures.append(msg)
+
+    repo = {"packages": packages}
+    validate_repo(repo, repo_schema_path, manifest_schema_path)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(repo, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    log.info("Wrote %s with %d packages (%d skipped)", out_path, len(packages), len(failures))
+
+    if failures:
+        log.error("Failures:\n%s", "\n".join(failures))
+    # Exit 0 if at least one package succeeded; non-zero only if none.
+    return 0 if packages else 1
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--apps", type=Path, default=DEFAULT_APPS)
+    parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
+    parser.add_argument("--repo-schema", type=Path, default=DEFAULT_REPO_SCHEMA)
+    parser.add_argument("--manifest-schema", type=Path, default=DEFAULT_MANIFEST_SCHEMA)
+    parser.add_argument("-v", "--verbose", action="store_true")
+    args = parser.parse_args(argv)
+
+    logging.basicConfig(
+        level=logging.DEBUG if args.verbose else logging.INFO,
+        format="%(levelname)s %(message)s",
+    )
+    return generate(args.apps, args.out, args.repo_schema, args.manifest_schema)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

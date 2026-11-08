@@ -1,0 +1,266 @@
+# Source list for the awesome-webos Homebrew Channel catalog.
+# Only apps missing from the official Channel catalog (repo.webosbrew.org).
+# Generator reads this file; do not invent package ids or URLs.
+
+youtube_collision_note: >-
+  Same app id as webosbrew YouTube AdFree and the other YouTube homebrew forks
+  (youtube.leanback.v4). Only one of these three can be installed at a time;
+  installing another replaces or conflicts with the one you already have.
+  Uninstall the official LG YouTube app before installing any of them.
+
+apps:
+  - name: native-jelly
+    id: com.sostk.nativejelly
+    repository: https://github.com/sostk/native-jelly
+    label: packaged
+    source:
+      type: manifest_url
+      url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
+
+  - name: aurora-tv
+    id: com.aurora.gamestream
+    repository: https://github.com/GuiDev1994/aurora-tv
+    label: packaged
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/repo.json
+
+  - name: StashWebOS
+    id: org.stashwebos.app
+    repository: https://github.com/pustal/StashWebOS
+    label: packaged
+    source:
+      type: manifest_url
+      url: https://github.com/pustal/StashWebOS/releases/latest/download/org.stashwebos.app.manifest.json
+
+  - name: RustCouch
+    id: io.github.danzig666.remotedesktv
+    repository: https://github.com/danzig666/webos-rustdesk-client
+    label: packaged
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/danzig666/webos-rustdesk-client/homebrew-repo/apps.json
+
+  - name: Free My TV
+    id: io.freemytv
+    repository: https://github.com/simbasjungles/free-my-tv
+    label: packaged
+    source:
+      type: repo_json
+      url: https://freemytv.io/webos/apps.json
+
+  - name: G5 System Monitor
+    id: org.schrotty74.g5systemmonitor
+    repository: https://github.com/Schrotty74/LG-G5-Apps
+    label: packaged
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/Schrotty74/LG-G5-Apps/main/repo.json
+
+  - name: StremCompat
+    id: io.github.alexesmm.legacytv
+    repository: https://github.com/Alexesmm/stremcompat-lg-webos
+    label: packaged
+    source:
+      type: repo_json
+      url: https://alexesmm.github.io/stremcompat-lg-webos/apps.json
+
+  - name: youtube-webos
+    id: youtube.leanback.v4
+    repository: https://github.com/NicholasBly/youtube-webos
+    label: needs_notice
+    title: youtube-webos
+    notice: youtube_collision
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/repo.json
+
+  - name: YouTube Foxtended
+    id: youtube.leanback.v4
+    repository: https://github.com/foxi69/youtube-webos
+    label: needs_notice
+    title: YouTube Foxtended
+    notice: youtube_collision
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/foxi69/youtube-webos/main/repo.json
+
+  - name: Nuvio Native Legacy
+    id: space.nuvio.native.legacy
+    repository: https://github.com/iqui27/nuvio-native-legacy
+    label: needs_notice
+    notice: Multiple IPK variants may exist in a release; use the package this catalog points at, and check the project README for your TV.
+    source:
+      type: repo_json
+      url: https://github.com/iqui27/nuvio-native-legacy/releases/latest/download/repo.json
+
+  - name: CSWeb TV
+    id: org.csweb.tv.legacy
+    repository: https://github.com/sostk/cloudstream-webos-native
+    label: needs_notice
+    notice: Runs CloudStream extensions. You are responsible for what you install and for following applicable laws.
+    source:
+      type: manifest_url
+      url: https://github.com/sostk/cloudstream-webos-native/releases/latest/download/org.csweb.tv.legacy.manifest.json
+
+  - name: TiviBro
+    id: app.tivibro.tv
+    repository: https://github.com/ohmybahgosh/TiviBro
+    label: needs_notice
+    notice: Currently published via pre-release / alpha Homebrew Channel metadata. Expect breakage.
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/ohmybahgosh/TiviBro/homebrew/repo.json
+
+  - name: SonicWebMania
+    id: org.sonicwebmania.app
+    repository: https://github.com/pustal/SonicWebMania
+    label: needs_notice
+    notice: Requires game assets you already own. Read the project README before installing.
+    source:
+      type: manifest_url
+      url: https://github.com/pustal/SonicWebMania/releases/latest/download/org.sonicwebmania.app.manifest.json
+
+  - name: Animal Crossing Port for WebOS TVs
+    id: org.animalcrossingwebos.app
+    repository: https://github.com/pustal/Animal-Crossing-WebOS
+    label: needs_notice
+    notice: Requires game assets you already own. Read the project README before installing.
+    source:
+      type: manifest_url
+      url: https://github.com/pustal/Animal-Crossing-WebOS/releases/latest/download/org.animalcrossingwebos.app.manifest.json
+
+  - name: Webmon
+    id: org.webmon.app
+    repository: https://github.com/pustal/Webmon
+    label: needs_notice
+    notice: Root access and an external USB drive are strongly recommended. Read the project README thoroughly.
+    source:
+      type: manifest_url
+      url: https://github.com/pustal/Webmon/releases/latest/download/org.webmon.app.manifest.json
+
+  - name: dts_restore_plus
+    id: io.github.josippapez.dtsenabler
+    repository: https://github.com/josippapez/dts_restore_plus
+    label: needs_notice
+    notice: For rooted TVs. Restores or changes audio/firmware-related behavior. Read the project README.
+    source:
+      type: repo_json
+      url: https://josippapez.github.io/dts_restore_plus/api/apps.json
+
+  - name: oscar-cam
+    id: com.larrysweb.oscarcam
+    repository: https://github.com/larrysweb/oscar-cam
+    label: needs_notice
+    notice: Aimed at rooted LG webOS TVs. LAN-only camera grid; read the project README for go2rtc and setup.
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/larrysweb/oscar-cam/main/docs/manifest.json
+
+  - name: LG-USB-2-ETH0
+    id: org.ohmybahgosh.lgusb2eth0
+    repository: https://github.com/ohmybahgosh/LG-USB-2-ETH0
+    label: needs_notice
+    notice: For rooted TVs. Changes network interface setup. Read the project README.
+    source:
+      type: manifest_url
+      url: https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/latest/download/org.ohmybahgosh.lgusb2eth0.manifest.json
+
+  - name: WebOS Entware Installer
+    id: org.ohmybahgosh.entware
+    repository: https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER
+    label: needs_notice
+    notice: For rooted TVs. Installs Entware and related tooling. Read the project README.
+    source:
+      type: manifest_url
+      url: https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/latest/download/org.ohmybahgosh.entware.manifest.json
+
+  - name: Glasshouse
+    id: io.github.rorygallagher2024.lg-webos-dashboard
+    repository: https://github.com/rorygallagher2024/glasshouse
+    label: needs_notice
+    notice: Requires a rooted TV. Powerful home-screen / dashboard tooling — read SAFETY notes in awesome-webos and the project README.
+    source:
+      type: manifest_url
+      url: https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard.manifest.json
+
+  - name: Native Tv
+    id: io.github.ihtisham1211.nativetv
+    repository: https://github.com/ihtisham1211/native-tv
+    label: needs_notice
+    notice: Requires root and the Homebrew Channel. Read the project README.
+    source:
+      type: manifest_url
+      url: https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv.manifest.json
+
+  - name: Hearth
+    id: tld.my.customlauncher
+    repository: https://github.com/rudra-avatar/Hearth
+    label: needs_notice
+    notice: Some features need root. Full home-screen replacement features are for rooted TVs.
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/rudra-avatar/Hearth/main/repo/apps.json
+
+  - name: LG Luma
+    id: com.ecklf.luma
+    repository: https://github.com/ecklf/lg-luma
+    label: needs_notice
+    notice: Alternative home screen; typically used on rooted TVs. Read the project README.
+    source:
+      type: repo_json
+      url: https://github.com/ecklf/lg-luma/releases/latest/download/repo.json
+
+  - name: Lumen webOS fork
+    id: com.ammar027.lumen
+    repository: https://github.com/ammar027/lumen-webos
+    label: needs_notice
+    notice: Home screen for rooted LG webOS TVs. Read the project README.
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/ammar027/lumen-webos/hbc-repo/stable/apps.json
+
+  - name: CleanYourTV
+    id: com.cleanyourtv.manager
+    repository: https://github.com/lasharor/cleanyourtv-WebOS
+    label: needs_notice
+    notice: Requires root and the Homebrew Channel. Replaces LG Home on supported webOS versions.
+    source:
+      type: manifest_url
+      url: https://github.com/lasharor/cleanyourtv-WebOS/releases/latest/download/com.cleanyourtv.manager.manifest.json
+
+  - name: ATLauncher
+    id: com.ratelimits.atlauncher
+    repository: https://github.com/ratelimits/atlauncher
+    label: needs_notice
+    notice: For rooted TVs with the Homebrew Channel. Read the project README.
+    source:
+      type: repo_json
+      url: https://github.com/ratelimits/atlauncher/releases/latest/download/repo.json
+
+  - name: Simple LG Launcher
+    id: tld.my.simplelauncher
+    repository: https://github.com/fardroid/Simple-LG-launcher
+    label: needs_notice
+    notice: Full features and replacing LG Home need root and the Homebrew Channel.
+    source:
+      type: repo_json
+      url: https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/repo/apps.json
+
+  - name: own-your-glass
+    id: org.ownyourglass.control
+    repository: https://github.com/JulioFerrero/own-your-glass
+    label: needs_notice
+    notice: For rooted TVs. Hardening / privacy tooling — read the project README carefully.
+    source:
+      type: manifest_url
+      url: https://github.com/JulioFerrero/own-your-glass/releases/latest/download/org.ownyourglass.control.manifest.json
+
+  - name: Magic Mapper
+    id: com.github.afonsojramos.magicmapper
+    repository: https://github.com/afonsojramos/magic-mapper-webos
+    label: needs_notice
+    notice: Requires root and the Homebrew Channel. Remaps Magic Remote buttons.
+    source:
+      type: repo_json
+      url: https://github.com/afonsojramos/magic-mapper-webos/releases/latest/download/repo.json

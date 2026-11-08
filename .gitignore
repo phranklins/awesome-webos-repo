@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# Dependencies (these are reinstalled, not committed)
+node_modules/
+.pnp/
+.pnp.js
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build output (keep dist/repo.json — Channel users add its raw GitHub URL)
+dist/*
+!dist/repo.json
+build/
+out/
+.next/
+.nuxt/
+.cache/
+*.egg-info/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Claude Code / Cursor working files
+.claude/
+.cursor-tutor/
+
+# OS junk
+Thumbs.db
+desktop.ini
