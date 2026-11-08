@@ -91,7 +91,11 @@ def write_config(path: Path, config: dict[str, Any]) -> None:
         if key in ordered or key == "apps":
             continue
         ordered[key] = value
-    ordered["apps"] = config["apps"]
+    # Sort by the displayed title when present, otherwise by the app name.
+    ordered["apps"] = sorted(
+        config["apps"],
+        key=lambda app: str(app.get("title") or app.get("name", "")).casefold(),
+    )
 
     body = yaml.safe_dump(
         ordered,
