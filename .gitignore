@@ -52,6 +52,9 @@ CLAUDE.md
 GEMINI.md
 .cursorrules
 
+# Local project notes (decision log, status, discovery) — never publish
+/docs/
+
 # OS junk
 Thumbs.db
 desktop.ini
