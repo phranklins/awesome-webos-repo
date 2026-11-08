@@ -17,14 +17,16 @@ import logging
 import re
 import sys
 import urllib.error
-import urllib.request
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse
 
 import yaml
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from http_util import absolute_url, fetch_json  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_APPS = ROOT / "catalog" / "apps.yml"
@@ -33,28 +35,7 @@ DEFAULT_DESCRIPTIONS = ROOT / "descriptions"
 DEFAULT_REPO_SCHEMA = ROOT / "schemas" / "HomebrewRepository.schema.json"
 DEFAULT_MANIFEST_SCHEMA = ROOT / "schemas" / "HomebrewPackageManifest.schema.json"
 
-USER_AGENT = "awesome-webos-catalog-generator/1.0 (+https://github.com/phranklins/awesome-webos-repo)"
-TIMEOUT_SECONDS = 45
-
 log = logging.getLogger("generate_catalog")
-
-
-def fetch_json(url: str) -> Any:
-    req = urllib.request.Request(
-        url,
-        headers={"User-Agent": USER_AGENT, "Accept": "application/json,text/plain,*/*"},
-    )
-    with urllib.request.urlopen(req, timeout=TIMEOUT_SECONDS) as resp:
-        charset = resp.headers.get_content_charset() or "utf-8"
-        return json.loads(resp.read().decode(charset))
-
-
-def absolute_url(base: str, maybe_relative: str | None) -> str | None:
-    if not maybe_relative:
-        return maybe_relative
-    if urlparse(maybe_relative).scheme:
-        return maybe_relative
-    return urljoin(base, maybe_relative)
 
 
 def load_apps_config(path: Path) -> dict[str, Any]:
@@ -77,7 +58,8 @@ def description_slug(app: dict[str, Any]) -> str:
     """Stable unique filename stem (package id can collide, e.g. YouTube forks)."""
     if app.get("slug"):
         return str(app["slug"])
-    raw = app.get("name") or app.get("id") or "app"
+    # Prefer explicit title override (e.g. YouTube Foxtended) over awesome-webos name.
+    raw = app.get("title") or app.get("name") or app.get("id") or "app"
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", str(raw)).strip("-").lower()
     return slug or "app"
 
@@ -224,13 +206,11 @@ def build_package(
             raise ValueError(
                 f"manifest id {manifest.get('id')!r} does not match expected {package_id!r}"
             )
-        if not manifest.get("iconUri"):
-            if repo_entry.get("iconUri"):
-                manifest = {**manifest, "iconUri": repo_entry["iconUri"]}
+        if not manifest.get("iconUri") and repo_entry.get("iconUri"):
+            manifest = {**manifest, "iconUri": repo_entry["iconUri"]}
     else:
         raise ValueError(f"unknown source.type {source_type!r}")
 
-    # Keep shortDescription to one line for the card; put notices in HTML.
     short = (
         repo_entry.get("shortDescription")
         or manifest.get("appDescription")
@@ -241,11 +221,7 @@ def build_package(
         if len(short) > 120:
             short = short[:117].rstrip() + "..."
 
-    body = (
-        repo_entry.get("shortDescription")
-        or manifest.get("appDescription")
-        or short
-    )
+    body = repo_entry.get("shortDescription") or manifest.get("appDescription") or short
     source_link = app.get("repository") or manifest.get("sourceUrl")
     write_description_html(
         path=html_path,
@@ -333,7 +309,6 @@ def generate(
             log.error(msg)
             failures.append(msg)
 
-    # Drop stale description files from removed apps.
     for path in descriptions_dir.glob("*.html"):
         if path.stem not in written_slugs:
             log.info("Removing stale description %s", path.name)

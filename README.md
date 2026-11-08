@@ -46,7 +46,14 @@ Because both forks share the same package id, the Homebrew Channel UI may only s
 Do **not** open a pull request against this catalog repo to request a new app.
 
 1. Add (or update) the project on [awesome-webos](https://github.com/tolgakurtuluss/awesome-webos) by following that project’s [CONTRIBUTING.md](https://github.com/tolgakurtuluss/awesome-webos/blob/main/CONTRIBUTING.md).
-2. Once it is on the awesome-webos list and has a Homebrew Channel–usable package (manifest or its own Channel repo JSON), this catalog can pick it up on the next sync.
+2. Once it is on the awesome-webos list **and** publishes a Homebrew Channel–usable package (its own `apps.json` / `repo.json`, or a release `.manifest.json` + IPK), this repo’s daily Action discovers it and publishes it automatically.
+
+The same daily sync will also:
+
+- refresh short warning notes when the awesome-webos description changes,
+- drop apps that join the [official Channel catalog](https://repo.webosbrew.org/),
+- drop apps whose package source URL dies and cannot be repaired,
+- re-check projects that were not packaged yet (so they appear later when they ship Channel metadata).
 
 Read [awesome-webos SAFETY.md](https://github.com/tolgakurtuluss/awesome-webos/blob/main/SAFETY.md) before installing anything on your TV.
 

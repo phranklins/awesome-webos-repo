@@ -373,18 +373,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.9.1",
+        "version": "2.9.2",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.9.1/org.ohmybahgosh.lgusb2eth0_2.9.1_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.9.2/org.ohmybahgosh.lgusb2eth0_2.9.2_all.ipk",
         "ipkHash": {
-          "sha256": "3c7eee8f70884699395c73ee498301eed8b3d39c24b64033f84dd055f66991a0"
+          "sha256": "9fb04efaedc2544dbd7b6587e2efcaf2dee07aaca2eb5551f1662bcfcf71cad7"
         },
-        "ipkSize": 125252
+        "ipkSize": 125386
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
