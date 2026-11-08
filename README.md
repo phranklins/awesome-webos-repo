@@ -11,8 +11,10 @@ Add this single URL in the Channel instead of adding each app’s repository sep
 3. Paste:
 
 ```text
-https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/dist/repo.json
+https://phranklins.github.io/awesome-webos-repo/repo.json
 ```
+
+That address is refreshed whenever the catalog file changes. If you already added the longer `raw.githubusercontent.com` link, you can keep it.
 
 4. Go back to the apps list and refresh.
 
