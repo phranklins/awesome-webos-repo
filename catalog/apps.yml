@@ -2,6 +2,9 @@
 # Only apps missing from the official Channel catalog (repo.webosbrew.org).
 # Generator reads this file; do not invent package ids or URLs.
 
+# Public base URL for description HTML files (raw GitHub).
+catalog_base_url: https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main
+
 youtube_collision_note: >-
   Same app id as webosbrew YouTube AdFree and the other YouTube homebrew forks
   (youtube.leanback.v4). Only one of these three can be installed at a time;

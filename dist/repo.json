@@ -20,7 +20,8 @@
         "ipkSize": 19896084,
         "installedSize": 39211
       },
-      "shortDescription": "Unofficial native Jellyfin client - not affiliated with Jellyfin"
+      "shortDescription": "Unofficial native Jellyfin client - not affiliated with Jellyfin",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-jelly.html"
     },
     {
       "id": "com.aurora.gamestream",
@@ -42,7 +43,8 @@
         "ipkSize": 1924766,
         "installedSize": 4003958
       },
-      "shortDescription": "Aurora — GameStream client for LG webOS. Stream from your PC with Sunshine or NVIDIA GameStream at up to 4K 120Hz HDR."
+      "shortDescription": "<p>GameStream client for LG webOS. Stream at up to 4K 120Hz HDR.</p>",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/aurora-tv.html"
     },
     {
       "id": "org.stashwebos.app",
@@ -62,7 +64,8 @@
           "sha256": "0ec479dc3e0a9bdd0476b3c7949685f62bb0d6b1bee20105dd1b6cc2f717fadd"
         }
       },
-      "shortDescription": "Client for Stash, the self-hosted media organizer"
+      "shortDescription": "Client for Stash, the self-hosted media organizer",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/stashwebos.html"
     },
     {
       "id": "io.github.danzig666.remotedesktv",
@@ -82,7 +85,8 @@
           "sha256": "7acd6841b76312a514604923988bd44c3f411a3bf155ed621dc9160e45528d1e"
         }
       },
-      "shortDescription": "RustDesk-compatible remote desktop client (community project)"
+      "shortDescription": "Control your computer from the TV with the regular RustDesk app: Magic Remote mouse, full on-screen keyboard (US/Hung...",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/rustcouch.html"
     },
     {
       "id": "io.freemytv",
@@ -103,7 +107,8 @@
         },
         "ipkSize": 718262
       },
-      "shortDescription": "A fast, ad-free home screen: your apps on a glass shelf, the weather and prices, day and night."
+      "shortDescription": "A fast, ad-free home screen: your apps on a glass shelf, the weather and prices, day and night.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/free-my-tv.html"
     },
     {
       "id": "org.schrotty74.g5systemmonitor",
@@ -121,7 +126,8 @@
         "ipkSize": 11896,
         "sourceUrl": "https://github.com/Schrotty74/LG-G5-Apps",
         "iconUri": "https://raw.githubusercontent.com/Schrotty74/LG-G5-Apps/main/apps/system-monitor/app/icon.png"
-      }
+      },
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/g5-system-monitor.html"
     },
     {
       "id": "io.github.alexesmm.legacytv",
@@ -141,7 +147,8 @@
           "sha256": "933e69aef4adeed59d789a6a8734a45d8567d6804259cd545257405f69ed0ef6"
         }
       },
-      "shortDescription": "Stremio addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root."
+      "shortDescription": "Stremio addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/stremcompat.html"
     },
     {
       "id": "youtube.leanback.v4",
@@ -161,7 +168,8 @@
           "sha256": "524570a54c391a1f5d40287c9462e9162840193df78e55fcae4c98eaef96eea3"
         }
       },
-      "shortDescription": "Same app id as webosbrew YouTube AdFree and the other YouTube homebrew forks (youtube.leanback.v4). Only one of these three can be installed at a time; installing another replaces or conflicts with the one you already have. Uninstall the official LG YouTube app before installing any of them."
+      "shortDescription": "YouTube AdFree",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/youtube-webos.html"
     },
     {
       "id": "youtube.leanback.v4",
@@ -181,7 +189,8 @@
           "sha256": "f9486c8269473c60fba2ca3fd33fa8332c591110fc8ff03bb65bf78717b5d638"
         }
       },
-      "shortDescription": "Same app id as webosbrew YouTube AdFree and the other YouTube homebrew forks (youtube.leanback.v4). Only one of these three can be installed at a time; installing another replaces or conflicts with the one you already have. Uninstall the official LG YouTube app before installing any of them."
+      "shortDescription": "Ad-free YouTube for webOS 3 and newer, with SponsorBlock, Return YouTube Dislike and DeArrow.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/youtube-foxtended.html"
     },
     {
       "id": "space.nuvio.native.legacy",
@@ -202,7 +211,8 @@
         },
         "ipkSize": 65645392
       },
-      "shortDescription": "Multiple IPK variants may exist in a release; use the package this catalog points at, and check the project README for your TV."
+      "shortDescription": "Unofficial native Nuvio client for LG webOS",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/nuvio-native-legacy.html"
     },
     {
       "id": "org.csweb.tv.legacy",
@@ -222,7 +232,8 @@
           "sha256": "a1e8faef83a4386e50378c7ef2e22fe41c124b7abba4637d97a64f2798704a9e"
         }
       },
-      "shortDescription": "Runs CloudStream extensions. You are responsible for what you install and for following applicable laws."
+      "shortDescription": "CSWeb TV for older LG TVs with a 32-bit kernel (webOS 4.x and similar). Runs CloudStream extensions natively. Ships n...",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/csweb-tv.html"
     },
     {
       "id": "app.tivibro.tv",
@@ -243,7 +254,8 @@
           "sha256": "722b7cc511b3bfe47f3d58309145d2d4d13135423eea6f507da0ca7888a5ec97"
         }
       },
-      "shortDescription": "Currently published via pre-release / alpha Homebrew Channel metadata. Expect breakage."
+      "shortDescription": "Test build 0.6.0-alpha.103: The IPTV player LG TVs never got",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
       "id": "org.sonicwebmania.app",
@@ -263,7 +275,8 @@
           "sha256": "ec64f7e3f125cd7d185aaa4e4148fa389ae2234b463c6092dffedba1695d9bc3"
         }
       },
-      "shortDescription": "Requires game assets you already own. Read the project README before installing."
+      "shortDescription": "Sonic Mania decompilation for webOS. Bring your own game data.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/sonicwebmania.html"
     },
     {
       "id": "org.animalcrossingwebos.app",
@@ -283,7 +296,8 @@
           "sha256": "f7745c3260dd83997360e34455d231c22ad1fcdba33177d03b9b199db5f9ffb0"
         }
       },
-      "shortDescription": "Requires game assets you already own. Read the project README before installing."
+      "shortDescription": "Native webOS port of the Animal Crossing (GameCube) decompilation. Bring your own disc image.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/animal-crossing-port-for-webos-tvs.html"
     },
     {
       "id": "org.webmon.app",
@@ -303,7 +317,8 @@
           "sha256": "700cddfd9088f92c7bc2639bc6a9877a1d480e5192966c217480680062fa3abe"
         }
       },
-      "shortDescription": "Root access and an external USB drive are strongly recommended. Read the project README thoroughly."
+      "shortDescription": "Runs gen1recomp (Pokemon Gen 1 Recompilation Project) on webOS. Downloads the game for you; bring your own ROM.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webmon.html"
     },
     {
       "id": "io.github.josippapez.dtsenabler",
@@ -324,7 +339,8 @@
           "sha256": "bdfc32663c6eeb71c4e98a4b42759fa26d5799fbac52df7e3d2852dbfe4725d2"
         }
       },
-      "shortDescription": "For rooted TVs. Restores or changes audio/firmware-related behavior. Read the project README."
+      "shortDescription": "Restore DTS and Dolby TrueHD/MLP audio on rooted LG webOS 25 TVs, including DTS in mp4/ts/m2ts containers. Also offer...",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/dts-restore-plus.html"
     },
     {
       "id": "com.larrysweb.oscarcam",
@@ -348,7 +364,8 @@
         "type": "web",
         "version": "0.1.4"
       },
-      "shortDescription": "Aimed at rooted LG webOS TVs. LAN-only camera grid; read the project README for go2rtc and setup."
+      "shortDescription": "Free, LAN-only camera grid for rooted LG webOS TVs.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/oscar-cam.html"
     },
     {
       "id": "org.ohmybahgosh.lgusb2eth0",
@@ -369,7 +386,8 @@
         },
         "ipkSize": 125252
       },
-      "shortDescription": "For rooted TVs. Changes network interface setup. Read the project README."
+      "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
     },
     {
       "id": "org.ohmybahgosh.entware",
@@ -390,7 +408,8 @@
         },
         "ipkSize": 194444
       },
-      "shortDescription": "For rooted TVs. Installs Entware and related tooling. Read the project README."
+      "shortDescription": "Install and manage Entware on a rooted LG TV",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webos-entware-installer.html"
     },
     {
       "id": "io.github.rorygallagher2024.lg-webos-dashboard",
@@ -410,7 +429,8 @@
           "sha256": "b9f8c36ddfe9cf0ee3bb00f5b3385160d4d47c7dc4b188e90bd426a2c2a4428a"
         }
       },
-      "shortDescription": "Requires a rooted TV. Powerful home-screen / dashboard tooling — read SAFETY notes in awesome-webos and the project README."
+      "shortDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/glasshouse.html"
     },
     {
       "id": "io.github.ihtisham1211.nativetv",
@@ -430,7 +450,8 @@
           "sha256": "bda46b8efaa3d8bfc2afaa8007c70f82226126ec73f035ab87ce95e6b9dd01aa"
         }
       },
-      "shortDescription": "Requires root and the Homebrew Channel. Read the project README."
+      "shortDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/native-tv.html"
     },
     {
       "id": "tld.my.customlauncher",
@@ -451,7 +472,8 @@
         },
         "ipkSize": 19326070
       },
-      "shortDescription": "Some features need root. Full home-screen replacement features are for rooted TVs."
+      "shortDescription": "Fast, calm home screen: clock, weather, apps, inputs, wallpaper.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/hearth.html"
     },
     {
       "id": "com.ecklf.luma",
@@ -472,7 +494,8 @@
         },
         "ipkSize": 41848212
       },
-      "shortDescription": "Alternative home screen; typically used on rooted TVs. Read the project README."
+      "shortDescription": "A remote-first native webOS launcher.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
     },
     {
       "id": "com.ammar027.lumen",
@@ -493,7 +516,8 @@
         },
         "ipkSize": 3230546
       },
-      "shortDescription": "Home screen for rooted LG webOS TVs. Read the project README."
+      "shortDescription": "Minimalist home screen: apps, inputs and a way back to LG's home.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lumen-webos-fork.html"
     },
     {
       "id": "com.cleanyourtv.manager",
@@ -514,7 +538,8 @@
         },
         "ipkSize": 6503052
       },
-      "shortDescription": "Requires root and the Homebrew Channel. Replaces LG Home on supported webOS versions."
+      "shortDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/cleanyourtv.html"
     },
     {
       "id": "com.ratelimits.atlauncher",
@@ -535,7 +560,8 @@
         },
         "ipkSize": 2125510
       },
-      "shortDescription": "For rooted TVs with the Homebrew Channel. Read the project README."
+      "shortDescription": "A native Home Screen for rooted LG webOS TVs, inspired by Apple TV.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/atlauncher.html"
     },
     {
       "id": "tld.my.simplelauncher",
@@ -556,7 +582,8 @@
         },
         "ipkSize": 6296816
       },
-      "shortDescription": "Full features and replacing LG Home need root and the Homebrew Channel."
+      "shortDescription": "A native home screen: clock, weather, calendar, news and your apps over your wallpaper. A fork of Hearth.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/simple-lg-launcher.html"
     },
     {
       "id": "org.ownyourglass.control",
@@ -576,7 +603,8 @@
           "sha256": "6aa2aa9b11f7cea8ed702efe08a9a2c84c33074de16db82c9532bc031122e496"
         }
       },
-      "shortDescription": "For rooted TVs. Hardening / privacy tooling — read the project README carefully."
+      "shortDescription": "Hardens a rooted LG webOS TV: microphones, screen capture, ads, telemetry and ACR.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/own-your-glass.html"
     },
     {
       "id": "com.github.afonsojramos.magicmapper",
@@ -596,7 +624,8 @@
           "sha256": "b7981a3a56e0782f057a181298442a6aebf387060b9028b0a5bc1eaa1d3841ed"
         }
       },
-      "shortDescription": "Requires root and the Homebrew Channel. Remaps Magic Remote buttons."
+      "shortDescription": "Discover, disable, and remap LG Magic Remote buttons from the TV",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/magic-mapper.html"
     }
   ]
 }
