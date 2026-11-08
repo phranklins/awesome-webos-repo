@@ -58,7 +58,6 @@ def description_slug(app: dict[str, Any]) -> str:
     """Stable unique filename stem (package id can collide, e.g. YouTube forks)."""
     if app.get("slug"):
         return str(app["slug"])
-    # Prefer explicit title override (e.g. YouTube Foxtended) over awesome-webos name.
     raw = app.get("title") or app.get("name") or app.get("id") or "app"
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", str(raw)).strip("-").lower()
     return slug or "app"
@@ -314,6 +313,7 @@ def generate(
             log.info("Removing stale description %s", path.name)
             path.unlink()
 
+    packages.sort(key=lambda package: str(package.get("title", "")).casefold())
     repo = {"packages": packages}
     validate_repo(repo, repo_schema_path, manifest_schema_path)
 

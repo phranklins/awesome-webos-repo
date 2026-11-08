@@ -117,6 +117,13 @@ apps:
   source:
     type: repo_json
     url: https://github.com/afonsojramos/magic-mapper-webos/releases/latest/download/repo.json
+- name: native-jelly
+  id: com.sostk.nativejelly
+  repository: https://github.com/sostk/native-jelly
+  label: packaged
+  source:
+    type: manifest_url
+    url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
 - name: Native Tv
   id: io.github.ihtisham1211.nativetv
   repository: https://github.com/ihtisham1211/native-tv
@@ -125,13 +132,6 @@ apps:
   source:
     type: manifest_url
     url: https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv.manifest.json
-- name: native-jelly
-  id: com.sostk.nativejelly
-  repository: https://github.com/sostk/native-jelly
-  label: packaged
-  source:
-    type: manifest_url
-    url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
 - name: Nuvio Native Legacy
   id: space.nuvio.native.legacy
   repository: https://github.com/iqui27/nuvio-native-legacy
@@ -225,15 +225,6 @@ apps:
     type: manifest_url
     url: https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json
   notice: youtube_collision
-- name: youtube-webos-fork
-  id: youtube.leanback.v4
-  repository: https://github.com/foxi69/youtube-webos
-  label: needs_notice
-  title: YouTube Foxtended
-  notice: youtube_collision
-  source:
-    type: repo_json
-    url: https://raw.githubusercontent.com/foxi69/youtube-webos/main/repo.json
 - name: youtube-webos
   id: youtube.leanback.v4
   repository: https://github.com/NicholasBly/youtube-webos
@@ -243,3 +234,12 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/repo.json
+- name: youtube-webos-fork
+  id: youtube.leanback.v4
+  repository: https://github.com/foxi69/youtube-webos
+  label: needs_notice
+  title: YouTube Foxtended
+  notice: youtube_collision
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/foxi69/youtube-webos/main/repo.json
