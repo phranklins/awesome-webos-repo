@@ -23,6 +23,13 @@ apps:
   source:
     type: repo_json
     url: https://github.com/ratelimits/atlauncher/releases/latest/download/repo.json
+- name: aurora-tv
+  id: com.aurora.gamestream
+  repository: https://github.com/GuiDev1994/aurora-tv
+  label: packaged
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/repo.json
 - name: CleanYourTV
   id: com.cleanyourtv.manager
   repository: https://github.com/lasharor/cleanyourtv-WebOS
@@ -110,13 +117,6 @@ apps:
   source:
     type: repo_json
     url: https://github.com/afonsojramos/magic-mapper-webos/releases/latest/download/repo.json
-- name: native-jelly
-  id: com.sostk.nativejelly
-  repository: https://github.com/sostk/native-jelly
-  label: packaged
-  source:
-    type: manifest_url
-    url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
 - name: Native Tv
   id: io.github.ihtisham1211.nativetv
   repository: https://github.com/ihtisham1211/native-tv
@@ -125,6 +125,13 @@ apps:
   source:
     type: manifest_url
     url: https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv.manifest.json
+- name: native-jelly
+  id: com.sostk.nativejelly
+  repository: https://github.com/sostk/native-jelly
+  label: packaged
+  source:
+    type: manifest_url
+    url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
 - name: Nuvio Native Legacy
   id: space.nuvio.native.legacy
   repository: https://github.com/iqui27/nuvio-native-legacy
@@ -194,13 +201,6 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/ohmybahgosh/TiviBro/homebrew/repo.json
-- name: aurora-tv
-  id: com.aurora.gamestream
-  repository: https://github.com/GuiDev1994/aurora-tv
-  label: packaged
-  source:
-    type: repo_json
-    url: https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/repo.json
 - name: Webmon
   id: org.webmon.app
   repository: https://github.com/pustal/Webmon
