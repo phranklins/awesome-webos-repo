@@ -20,7 +20,7 @@
         "ipkSize": 19896084,
         "installedSize": 39211
       },
-      "shortDescription": "\n\nUnofficial native Jellyfin client - not affiliated with Jellyfin"
+      "shortDescription": "Unofficial native Jellyfin client - not affiliated with Jellyfin"
     },
     {
       "id": "com.aurora.gamestream",
@@ -230,17 +230,17 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10101",
+        "version": "0.5.10103",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.101.  Free, guide-first IPTV player for your own Xtream Codes or M3U subscription",
+        "appDescription": "Test build 0.6.0-alpha.103.  Free, guide-first IPTV player for your own Xtream Codes or M3U subscription",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.101/app.tivibro.tv_0.5.10101_all.ipk",
-        "ipkSize": 4317222,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.103/app.tivibro.tv_0.5.10103_all.ipk",
+        "ipkSize": 4407806,
         "ipkHash": {
-          "sha256": "2c711ec2c5ad670de9cc24c784df0094a8f30465c77e5d02752d26080576b4c8"
+          "sha256": "722b7cc511b3bfe47f3d58309145d2d4d13135423eea6f507da0ca7888a5ec97"
         }
       },
       "shortDescription": "Currently published via pre-release / alpha Homebrew Channel metadata. Expect breakage."
@@ -356,18 +356,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.9.0",
+        "version": "2.9.1",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.9.0/org.ohmybahgosh.lgusb2eth0_2.9.0_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.9.1/org.ohmybahgosh.lgusb2eth0_2.9.1_all.ipk",
         "ipkHash": {
-          "sha256": "5def9354b380534e4cead5f6db41d5b75d1a66038a45ec804e8b40bea42f5c5f"
+          "sha256": "3c7eee8f70884699395c73ee498301eed8b3d39c24b64033f84dd055f66991a0"
         },
-        "ipkSize": 125174
+        "ipkSize": 125252
       },
       "shortDescription": "For rooted TVs. Changes network interface setup. Read the project README."
     },
