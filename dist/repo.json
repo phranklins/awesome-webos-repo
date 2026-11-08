@@ -626,6 +626,25 @@
       },
       "shortDescription": "Discover, disable, and remap LG Magic Remote buttons from the TV",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/magic-mapper.html"
+    },
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube AdFree",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.5.3",
+        "type": "web",
+        "title": "YouTube AdFree",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/webosbrew/youtube-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/latest/download/youtube.leanback.v4_0.5.3_all.ipk",
+        "ipkHash": {
+          "sha256": "9c4f1dd0b04fd712adb6a9a1c5838da49b1003cd96de8354c10467b52d73259d"
+        }
+      },
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/youtube-adfree.html"
     }
   ]
 }
