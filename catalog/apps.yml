@@ -179,6 +179,14 @@ apps:
   source:
     type: manifest_url
     url: https://github.com/pustal/SonicWebMania/releases/latest/download/org.sonicwebmania.app.manifest.json
+- name: Speedtest CLI
+  id: io.github.danzig666.speedtest
+  repository: https://github.com/danzig666/webos-speedtest
+  label: needs_notice
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/danzig666/webos-speedtest/main/homebrew/apps.json
+  notice: Requires a rooted TV (or root for full features). Read the project README.
 - name: StashWebOS
   id: org.stashwebos.app
   repository: https://github.com/pustal/StashWebOS
