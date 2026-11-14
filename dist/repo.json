@@ -72,18 +72,18 @@
       "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
       "manifest": {
         "id": "com.cleanyourtv.manager",
-        "version": "1.6.26",
+        "version": "1.6.27",
         "type": "web",
         "title": "CleanYourTV",
         "appDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
         "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
         "sourceUrl": "https://github.com/lasharor/cleanyourtv-WebOS",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.26/com.cleanyourtv.manager_1.6.26_all.ipk",
+        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.27/com.cleanyourtv.manager_1.6.27_all.ipk",
         "ipkHash": {
-          "sha256": "8aadc9169192388f02f916d2071cf89dd21bd0207f5c21a385048a8b677ed40d"
+          "sha256": "a04f472247d06687d597878304f88c5a3493f46df5396df2c5f46bb0961ef4ac"
         },
-        "ipkSize": 6829866
+        "ipkSize": 6885424
       },
       "shortDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/cleanyourtv.html"
@@ -200,16 +200,16 @@
       "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
       "manifest": {
         "id": "io.github.rorygallagher2024.lg-webos-dashboard",
-        "version": "0.146.2",
+        "version": "0.149.0",
         "type": "web",
         "title": "Glasshouse",
         "appDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
         "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
         "sourceUrl": "https://github.com/rorygallagher2024/glasshouse",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.146.2_all.ipk",
+        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.149.0_all.ipk",
         "ipkHash": {
-          "sha256": "2c5478aac971019415e49bb5117bb66bf1c9a164fef2863319b5035ec51c0d63"
+          "sha256": "31e024e78a99e0f5b490c39cfd001ed6db302bba0d65829be949b0ff780225cb"
         }
       },
       "shortDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
@@ -243,18 +243,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.11.18",
+        "version": "2.11.26",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.18/org.ohmybahgosh.lgusb2eth0_2.11.18_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.26/org.ohmybahgosh.lgusb2eth0_2.11.26_all.ipk",
         "ipkHash": {
-          "sha256": "136a794323166f7a04fc1fa37457426b7cf3bc8e6db2395c6d918dd50fdce6d7"
+          "sha256": "2bffda50482420dafab8c9689c607f932c1fae10c67e9ba7fa80c1d0ddb19c67"
         },
-        "ipkSize": 148150
+        "ipkSize": 151262
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
@@ -262,21 +262,21 @@
     {
       "id": "com.ecklf.luma",
       "title": "Luma",
-      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.19.0/app-icon-large.png",
+      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/app-icon-large.png",
       "manifest": {
         "id": "com.ecklf.luma",
-        "version": "2.19.0",
+        "version": "3.1.0",
         "type": "native",
         "title": "Luma",
         "appDescription": "A remote-first native webOS launcher.",
-        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v2.19.0/app-icon-large.png",
+        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/app-icon-large.png",
         "sourceUrl": "https://github.com/ecklf/lg-luma",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v2.19.0/com.ecklf.luma_2.19.0_arm.ipk",
+        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/com.ecklf.luma_3.1.0_arm.ipk",
         "ipkHash": {
-          "sha256": "7bfb9d9a82037098df09faa513eea6f0d556fbc4f1244e8cc5d2f6f99199fb77"
+          "sha256": "40796f467797d1646f2aa05706aa3498071aba54c8466775c5a2655385bf2608"
         },
-        "ipkSize": 42074766
+        "ipkSize": 42387514
       },
       "shortDescription": "A remote-first native webOS launcher.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
@@ -353,16 +353,16 @@
       "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
       "manifest": {
         "id": "io.github.ihtisham1211.nativetv",
-        "version": "0.123.0",
+        "version": "0.124.0",
         "type": "web",
         "title": "Native Tv",
         "appDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
         "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
         "sourceUrl": "https://github.com/ihtisham1211/native-tv",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.123.0_all.ipk",
+        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.124.0_all.ipk",
         "ipkHash": {
-          "sha256": "bda46b8efaa3d8bfc2afaa8007c70f82226126ec73f035ab87ce95e6b9dd01aa"
+          "sha256": "71c85a2d826cf30ca5b515ed708005d479f0ed98c68108b12721e9ccca6a3e36"
         }
       },
       "shortDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
@@ -463,18 +463,18 @@
       "iconUri": "https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/assets/app/largeIcon.png",
       "manifest": {
         "id": "tld.my.simplelauncher",
-        "version": "2.0.1",
+        "version": "2.2.2",
         "type": "native",
         "title": "Simple LG launcher",
         "appDescription": "A native, quieter home screen for LG TVs: clock, weather, your calendar, the news and a row of apps over your wallpaper.",
         "iconUri": "https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/assets/app/largeIcon.png",
         "sourceUrl": "https://github.com/fardroid/Simple-LG-launcher",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/fardroid/Simple-LG-launcher/releases/download/v2.0.1/tld.my.simplelauncher_2.0.1_arm.ipk",
+        "ipkUrl": "https://github.com/fardroid/Simple-LG-launcher/releases/download/v2.2.2/tld.my.simplelauncher_2.2.2_arm.ipk",
         "ipkHash": {
-          "sha256": "221dbd791ef08486a270731f317b21931d20497eafe5c363e4f8f318827fd763"
+          "sha256": "b97c7fd2dbcc94259410539ad30c78fc373b4726801fdd3ecfc0a82d3f3a3ed1"
         },
-        "ipkSize": 6296816
+        "ipkSize": 6383308
       },
       "shortDescription": "A native home screen: clock, weather, calendar, news and your apps over your wallpaper. A fork of Hearth.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/simple-lg-launcher.html"
@@ -570,21 +570,21 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10126",
+        "version": "0.5.10133",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.126.  Free, guide-first IPTV player for your own Xtream Codes or M3U subscription",
+        "appDescription": "Test build 0.6.0-alpha.133.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.126/app.tivibro.tv_0.5.10126_all.ipk",
-        "ipkSize": 4716198,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.133/app.tivibro.tv_0.5.10133_all.ipk",
+        "ipkSize": 4746360,
         "ipkHash": {
-          "sha256": "f016d0fa81d79e5398235441bc4a78becd014492e29d9c3ed1e9c975c8b4e271"
+          "sha256": "2a2ad938ee36b08571b09f03471387ab986cbafde7540f8f15844f9da9ccfb6e"
         },
-        "tivibroSig": "K/xBwaEfo+Y88/YPq/y6esYsWqocL/n2xRr9/NqjEOZp7WCLj4x9jokMk3k1E6gZf6oW1SBPT4XhQSJnYC8kcCPtPYPFbNqvXTWNKqvODE8toPiZfkHlvov1VIOcOYGEqg6I59c9uAHbqaglIKkC7wzVg3ckfAz1uoONzPvT71oMjl00i6R2pDEmOxDig5Yir3y6T2R1Tw7uUkVEkkP4V7jHcSZmaDNK3WhUipMNyX5j0g7wtAaVGl72yjN20lsWrgM2DiQXyolGCUWvCvX3/KlWJk4aAUWDNP2WJmSDZg2ZcFWzc4jrY3uj9ZVzi1Kk2cYW6InIOdsMNvrZV0g5jf3KoOe8uW5AkB+l6tQXo3Yel+nGrfnFFL7/6APFNi2CmWKtrR40z/k4GkyiszbkZ1HjuQ5sKblXRKjODa0US8mkuMXCA5IrUFeKHSNZjgVDjJe4Pg/2/kP99KXGY89MvdhIiDKhVO7aXSul+Px70KvS38vzdXG7zI2P8Mc1P0l9"
+        "tivibroSig": "fniec1gELeVXQqsZXqPfGEVSlARWqwiLcjKnfYMqozgS5DPgJJNpACwYGEvm119fjFnPJsbU1i+kviUkZe+tOEK3BJbOaH2W9Hl/7rNzZE0yp6fdQHTA7EwJ3UUykaqaM81X00jujEH1+UQdX7W7+uvx+vnxkT1y1zfirYJY9mTxdZXtbCHiVPjhsZRJIb/d+0LakmRHXr25QrcxImYdw3Xr8vOCuOrjnQTXBujk+JNYLBhakVQRsAKqg/2HkzqM5uHOr0MjwnI1rNBwZDY6WFhjgYL6ES7acosIH3i0YAYh/SxgMeMMPNHGeeOHZ1m2qH3EA4dIqziRZ8yXxTjEBTaJFuO1IVlQ5Bw8wmLWEYWnoWzj4p7XYWNmVot2cjmF5D8xGC+q7v4vcOFFlLdiahyIgC5PhnEIQXansYEoNgAZgkt4azqcdtIk8kVCJM9dUO3/WnafUsls79KegoOUa2eTNVrB/Pbum+2DL0HqISEcwG1s84nSR3sfkychpW5l"
       },
-      "shortDescription": "Test build 0.6.0-alpha.126: The IPTV player LG TVs never got",
+      "shortDescription": "Test build 0.6.0-alpha.133: The IPTV player LG TVs never got",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
@@ -654,16 +654,16 @@
       "iconUri": "https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/assets/icon.png",
       "manifest": {
         "id": "youtube.leanback.v4",
-        "version": "0.8.4",
+        "version": "0.8.5",
         "type": "web",
         "title": "YouTube AdFree",
         "appDescription": "YouTube AdFree",
         "iconUri": "https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/assets/icon.png",
         "sourceUrl": "https://github.com/NicholasBly/youtube-webos",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/NicholasBly/youtube-webos/releases/download/0.8.4/youtube.leanback.v4_0.8.4_all.ipk",
+        "ipkUrl": "https://github.com/NicholasBly/youtube-webos/releases/download/0.8.5/youtube.leanback.v4_0.8.5_all.ipk",
         "ipkHash": {
-          "sha256": "524570a54c391a1f5d40287c9462e9162840193df78e55fcae4c98eaef96eea3"
+          "sha256": "41b8a13e57093b120f47548befc919dc1b65e12440b610609988bab51a0f6128"
         }
       },
       "shortDescription": "YouTube AdFree",
