@@ -24,21 +24,21 @@
     {
       "id": "com.ratelimits.atlauncher",
       "title": "ATLauncher",
-      "iconUri": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.4/app-icon-large.png",
+      "iconUri": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.5/app-icon-large.png",
       "manifest": {
         "id": "com.ratelimits.atlauncher",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "type": "qml",
         "title": "ATLauncher",
         "appDescription": "A native Home Screen for rooted LG webOS TVs, inspired by Apple TV.",
-        "iconUri": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.4/app-icon-large.png",
+        "iconUri": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.5/app-icon-large.png",
         "sourceUrl": "https://github.com/ratelimits/atlauncher",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.4/com.ratelimits.atlauncher_1.0.4_all.ipk",
+        "ipkUrl": "https://github.com/ratelimits/atlauncher/releases/download/v1.0.5/com.ratelimits.atlauncher_1.0.5_all.ipk",
         "ipkHash": {
-          "sha256": "98beec11006ec4dc8b3e2b73fc187bef3226be93376de91c5af888fb4d62b958"
+          "sha256": "8b7a14083115979f66d4df03fc5633fa5b746c515416e12ce20e4e804a0eaa59"
         },
-        "ipkSize": 2130580
+        "ipkSize": 2131714
       },
       "shortDescription": "A native Home Screen for rooted LG webOS TVs, inspired by Apple TV.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/atlauncher.html"
@@ -72,18 +72,18 @@
       "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
       "manifest": {
         "id": "com.cleanyourtv.manager",
-        "version": "1.6.27",
+        "version": "1.6.28",
         "type": "web",
         "title": "CleanYourTV",
         "appDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
         "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
         "sourceUrl": "https://github.com/lasharor/cleanyourtv-WebOS",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.27/com.cleanyourtv.manager_1.6.27_all.ipk",
+        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.28/com.cleanyourtv.manager_1.6.28_all.ipk",
         "ipkHash": {
-          "sha256": "a04f472247d06687d597878304f88c5a3493f46df5396df2c5f46bb0961ef4ac"
+          "sha256": "578fe76d6ad352276e404ef5e77450b969d80e3dc71e8fedea3a3604b2d6d9f2"
         },
-        "ipkSize": 6885424
+        "ipkSize": 6895436
       },
       "shortDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/cleanyourtv.html"
@@ -137,18 +137,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.entware",
-        "version": "2.15.2",
+        "version": "2.15.3",
         "type": "web",
         "title": "Entware",
         "appDescription": "Install and manage Entware on a rooted LG TV",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/download/v2.15.2/org.ohmybahgosh.entware_2.15.2_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/download/v2.15.3/org.ohmybahgosh.entware_2.15.3_all.ipk",
         "ipkHash": {
-          "sha256": "2880a4f8de8d930a84346d8e393b4015154c9a98df6b4e735bd9646b74429b78"
+          "sha256": "924e96626d8de9d6fc553a5ad5651afaec1e178d17361505c72665a36b1801e5"
         },
-        "ipkSize": 195190
+        "ipkSize": 197834
       },
       "shortDescription": "Install and manage Entware on a rooted LG TV",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/webos-entware-installer.html"
@@ -200,16 +200,16 @@
       "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
       "manifest": {
         "id": "io.github.rorygallagher2024.lg-webos-dashboard",
-        "version": "0.149.0",
+        "version": "0.152.0",
         "type": "web",
         "title": "Glasshouse",
         "appDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
         "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
         "sourceUrl": "https://github.com/rorygallagher2024/glasshouse",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.149.0_all.ipk",
+        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.152.0_all.ipk",
         "ipkHash": {
-          "sha256": "31e024e78a99e0f5b490c39cfd001ed6db302bba0d65829be949b0ff780225cb"
+          "sha256": "4dc222ce4f85791b0f6aaf2f46fec62d022ca5d811441212324592228a5a3f24"
         }
       },
       "shortDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
@@ -243,18 +243,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.11.26",
+        "version": "2.11.33",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.26/org.ohmybahgosh.lgusb2eth0_2.11.26_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.33/org.ohmybahgosh.lgusb2eth0_2.11.33_all.ipk",
         "ipkHash": {
-          "sha256": "2bffda50482420dafab8c9689c607f932c1fae10c67e9ba7fa80c1d0ddb19c67"
+          "sha256": "1ebe4c55ac31bd949133e47a325b0476fb396812cdc6c0847565667e4d670322"
         },
-        "ipkSize": 151262
+        "ipkSize": 160334
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
@@ -262,21 +262,21 @@
     {
       "id": "com.ecklf.luma",
       "title": "Luma",
-      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/app-icon-large.png",
+      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/app-icon-large.png",
       "manifest": {
         "id": "com.ecklf.luma",
-        "version": "3.1.0",
+        "version": "3.3.0",
         "type": "native",
         "title": "Luma",
         "appDescription": "A remote-first native webOS launcher.",
-        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/app-icon-large.png",
+        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/app-icon-large.png",
         "sourceUrl": "https://github.com/ecklf/lg-luma",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.1.0/com.ecklf.luma_3.1.0_arm.ipk",
+        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/com.ecklf.luma_3.3.0_arm.ipk",
         "ipkHash": {
-          "sha256": "40796f467797d1646f2aa05706aa3498071aba54c8466775c5a2655385bf2608"
+          "sha256": "11f31471b4ef7710f131bc20ba5ea16211a1f6cb819a190102b0b471b4ab9160"
         },
-        "ipkSize": 42387514
+        "ipkSize": 55060052
       },
       "shortDescription": "A remote-first native webOS launcher.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
@@ -463,18 +463,18 @@
       "iconUri": "https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/assets/app/largeIcon.png",
       "manifest": {
         "id": "tld.my.simplelauncher",
-        "version": "2.2.2",
+        "version": "2.2.3",
         "type": "native",
         "title": "Simple LG launcher",
         "appDescription": "A native, quieter home screen for LG TVs: clock, weather, your calendar, the news and a row of apps over your wallpaper.",
         "iconUri": "https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/assets/app/largeIcon.png",
         "sourceUrl": "https://github.com/fardroid/Simple-LG-launcher",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/fardroid/Simple-LG-launcher/releases/download/v2.2.2/tld.my.simplelauncher_2.2.2_arm.ipk",
+        "ipkUrl": "https://github.com/fardroid/Simple-LG-launcher/releases/download/v2.2.3/tld.my.simplelauncher_2.2.3_arm.ipk",
         "ipkHash": {
-          "sha256": "b97c7fd2dbcc94259410539ad30c78fc373b4726801fdd3ecfc0a82d3f3a3ed1"
+          "sha256": "2afcff80394756fa9fd777819bf4e741a37ca8a470afbdf1e757a6fd156b5b1e"
         },
-        "ipkSize": 6383308
+        "ipkSize": 6398676
       },
       "shortDescription": "A native home screen: clock, weather, calendar, news and your apps over your wallpaper. A fork of Hearth.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/simple-lg-launcher.html"
@@ -549,16 +549,16 @@
       "iconUri": "https://alexesmm.github.io/stremcompat-lg-webos/icon.png",
       "manifest": {
         "id": "io.github.alexesmm.legacytv",
-        "version": "4.2.2",
+        "version": "4.3.0",
         "type": "web",
         "title": "StremCompat",
         "appDescription": "Your Stremio or Nuvio account and addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root.",
         "iconUri": "https://alexesmm.github.io/stremcompat-lg-webos/icon.png",
-        "sourceUrl": "https://github.com/Alexesmm/stremcompat-lg-webos",
+        "sourceUrl": "https://github.com/StremCompat/stremcompat",
         "rootRequired": false,
-        "ipkUrl": "https://alexesmm.github.io/stremcompat-lg-webos/io.github.alexesmm.legacytv_4.2.2_all.ipk",
+        "ipkUrl": "https://alexesmm.github.io/stremcompat-lg-webos/io.github.alexesmm.legacytv_4.3.0_all.ipk",
         "ipkHash": {
-          "sha256": "df084cd511a92a1b8622a7866d50e00a37d79be6f98ba998e91f38454891ebb6"
+          "sha256": "3686e9476cd121bd4d20178d1d587bebaea4c3016d8c35fd8bc4ddf9898de904"
         }
       },
       "shortDescription": "Your Stremio or Nuvio account and addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root.",
@@ -570,21 +570,21 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10133",
+        "version": "0.5.10138",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.133.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
+        "appDescription": "Test build 0.6.0-alpha.138.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.133/app.tivibro.tv_0.5.10133_all.ipk",
-        "ipkSize": 4746360,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.138/app.tivibro.tv_0.5.10138_all.ipk",
+        "ipkSize": 4761018,
         "ipkHash": {
-          "sha256": "2a2ad938ee36b08571b09f03471387ab986cbafde7540f8f15844f9da9ccfb6e"
+          "sha256": "979b38033fbe886cd0d1fc3ce291819fec60d4dfba874a8df7b51ce6f9f5a618"
         },
-        "tivibroSig": "fniec1gELeVXQqsZXqPfGEVSlARWqwiLcjKnfYMqozgS5DPgJJNpACwYGEvm119fjFnPJsbU1i+kviUkZe+tOEK3BJbOaH2W9Hl/7rNzZE0yp6fdQHTA7EwJ3UUykaqaM81X00jujEH1+UQdX7W7+uvx+vnxkT1y1zfirYJY9mTxdZXtbCHiVPjhsZRJIb/d+0LakmRHXr25QrcxImYdw3Xr8vOCuOrjnQTXBujk+JNYLBhakVQRsAKqg/2HkzqM5uHOr0MjwnI1rNBwZDY6WFhjgYL6ES7acosIH3i0YAYh/SxgMeMMPNHGeeOHZ1m2qH3EA4dIqziRZ8yXxTjEBTaJFuO1IVlQ5Bw8wmLWEYWnoWzj4p7XYWNmVot2cjmF5D8xGC+q7v4vcOFFlLdiahyIgC5PhnEIQXansYEoNgAZgkt4azqcdtIk8kVCJM9dUO3/WnafUsls79KegoOUa2eTNVrB/Pbum+2DL0HqISEcwG1s84nSR3sfkychpW5l"
+        "tivibroSig": "cn1y+cxRYdM2Csv4BV6zeioYAhTcCDGkF1I4UCrMSzmqsw361X/fHYXUkuaAttzzgi6MqMpkPRZ4SH2uyHsxv/XdjFYOHQuoQIthO7jgonyiNsgkCMmq+KGSAfz6VAQMPLMW0zhIonYWouujh9iB7I9toDAooOigOpeIKg1QHPc3nVWyCLOfdB9f/XDbHu3l4AQh15qMIsSW8Zt1faqBJh3zHWdCm+9tJmwfavoXRMdc7tcQz+KBTLlkM7f86cAVcJ5hXFc0AAnJJ3bydM9tdCx0/nFWUPKi6MgDXDAKz+7P3ucE1k1QmfhCRzu1a6vNi00gtS0/6MSWaDQ6Kgn8mr4TMCq14aqBJx5ZTcntEYTtqkBEmXvvVWCFkOTo6rqsCihhdj1pFukvSqlmadWYNz9gmtNXuS4yNWmwX5YXX7wJhjBC/qTJFFaNowzkl9pxG5iYEflt5Yyyx0vt75ya7RemuKcI49kKACmHgzu6+7GA8X5FiaKLxaLS2Tn5M/Bg"
       },
-      "shortDescription": "Test build 0.6.0-alpha.133: The IPTV player LG TVs never got",
+      "shortDescription": "Test build 0.6.0-alpha.138: The IPTV player LG TVs never got",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
