@@ -72,18 +72,18 @@
       "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
       "manifest": {
         "id": "com.cleanyourtv.manager",
-        "version": "1.6.28",
+        "version": "1.6.29",
         "type": "web",
         "title": "CleanYourTV",
         "appDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
         "iconUri": "https://raw.githubusercontent.com/lasharor/cleanyourtv-WebOS/main/manager/app/largeIcon.png",
         "sourceUrl": "https://github.com/lasharor/cleanyourtv-WebOS",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.28/com.cleanyourtv.manager_1.6.28_all.ipk",
+        "ipkUrl": "https://github.com/lasharor/cleanyourtv-WebOS/releases/download/v1.6.29/com.cleanyourtv.manager_1.6.29_all.ipk",
         "ipkHash": {
-          "sha256": "578fe76d6ad352276e404ef5e77450b969d80e3dc71e8fedea3a3604b2d6d9f2"
+          "sha256": "ed002227bd6df2b03df388139e238ecad05b22e692aa32da192ffd41d9b1b742"
         },
-        "ipkSize": 6895436
+        "ipkSize": 6928638
       },
       "shortDescription": "A clean Home screen for rooted LG TVs, without LG's ads and tracking",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/cleanyourtv.html"
@@ -91,19 +91,19 @@
     {
       "id": "org.csweb.tv.legacy",
       "title": "CSWeb TV Legacy",
-      "iconUri": "https://raw.githubusercontent.com/sostk/cloudstream-webos-native/5eb87363c09391ddae0b50ea9be158cb7889418e/apps/csweb-tv/packaging/icons/largeIcon.png",
+      "iconUri": "https://raw.githubusercontent.com/sostk/cloudstream-webos-native/aa9ad9de4e5061f34d398ed2f41a3349cbf7788d/apps/csweb-tv/packaging/icons/largeIcon.png",
       "manifest": {
         "id": "org.csweb.tv.legacy",
-        "version": "0.7.1",
+        "version": "0.8.0",
         "type": "native",
         "title": "CSWeb TV Legacy",
         "appDescription": "CSWeb TV for older LG TVs with a 32-bit kernel (webOS 4.x and similar). Runs CloudStream extensions natively. Ships no content or plugins.",
-        "iconUri": "https://raw.githubusercontent.com/sostk/cloudstream-webos-native/5eb87363c09391ddae0b50ea9be158cb7889418e/apps/csweb-tv/packaging/icons/largeIcon.png",
+        "iconUri": "https://raw.githubusercontent.com/sostk/cloudstream-webos-native/aa9ad9de4e5061f34d398ed2f41a3349cbf7788d/apps/csweb-tv/packaging/icons/largeIcon.png",
         "sourceUrl": "https://github.com/sostk/cloudstream-webos-native",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/sostk/cloudstream-webos-native/releases/latest/download/org.csweb.tv.legacy_0.7.1_arm.ipk",
+        "ipkUrl": "https://github.com/sostk/cloudstream-webos-native/releases/latest/download/org.csweb.tv.legacy_0.8.0_arm.ipk",
         "ipkHash": {
-          "sha256": "0918f97153e1c1669df424f400da47a3768b9fcb445a002e3f812c2e3c509578"
+          "sha256": "419a72ffd41968e3ef63c6316dcb59e9acb168e514b05717ec077b0657e3be16"
         }
       },
       "shortDescription": "CSWeb TV for older LG TVs with a 32-bit kernel (webOS 4.x and similar). Runs CloudStream extensions natively. Ships n...",
@@ -115,17 +115,17 @@
       "iconUri": "https://raw.githubusercontent.com/josippapez/dts_restore_plus/main/assets/icon160.png",
       "manifest": {
         "id": "io.github.josippapez.dtsenabler",
-        "version": "2.7.80",
+        "version": "2.7.81",
         "type": "web",
         "title": "DTS Enabler",
         "appDescription": "Restore DTS and Dolby TrueHD/MLP audio on rooted LG webOS 25 TVs, including DTS in mp4/ts/m2ts containers. Also offers exact-firmware experimental DTS support for C2/G2 via explicit opt-in. Requires the Homebrew Channel + root.",
         "iconUri": "https://raw.githubusercontent.com/josippapez/dts_restore_plus/main/assets/icon160.png",
         "sourceUrl": "https://github.com/josippapez/dts_restore_plus",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/josippapez/dts_restore_plus/releases/download/webos25-2.78/io.github.josippapez.dtsenabler_2.7.80_all.ipk",
-        "ipkSize": 35157002,
+        "ipkUrl": "https://github.com/josippapez/dts_restore_plus/releases/download/webos25-2.79/io.github.josippapez.dtsenabler_2.7.81_all.ipk",
+        "ipkSize": 35300706,
         "ipkHash": {
-          "sha256": "0566831d8b17de820915848476d4a27722b5ed100f7f6006a3fea9c4e1a38a8f"
+          "sha256": "fad82cca83b58d22abcd5626a50d4f3c2b51af9a6a4b90804aac666fa2673486"
         }
       },
       "shortDescription": "Restore DTS and Dolby TrueHD/MLP audio on rooted LG webOS 25 TVs, including DTS in mp4/ts/m2ts containers. Also offer...",
@@ -200,16 +200,16 @@
       "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
       "manifest": {
         "id": "io.github.rorygallagher2024.lg-webos-dashboard",
-        "version": "0.152.0",
+        "version": "0.154.0",
         "type": "web",
         "title": "Glasshouse",
         "appDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
         "iconUri": "https://raw.githubusercontent.com/rorygallagher2024/glasshouse/main/server/assets/dashboard-app/assets/icon130.png",
         "sourceUrl": "https://github.com/rorygallagher2024/glasshouse",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.152.0_all.ipk",
+        "ipkUrl": "https://github.com/rorygallagher2024/glasshouse/releases/latest/download/io.github.rorygallagher2024.lg-webos-dashboard_0.154.0_all.ipk",
         "ipkHash": {
-          "sha256": "4dc222ce4f85791b0f6aaf2f46fec62d022ca5d811441212324592228a5a3f24"
+          "sha256": "ee8381a596ca784b1d067b77dbc932b74ad62ab26c609990e6d3a24b20c1677a"
         }
       },
       "shortDescription": "Own the glass. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
@@ -243,18 +243,18 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.11.33",
+        "version": "2.11.36",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.33/org.ohmybahgosh.lgusb2eth0_2.11.33_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.36/org.ohmybahgosh.lgusb2eth0_2.11.36_all.ipk",
         "ipkHash": {
-          "sha256": "1ebe4c55ac31bd949133e47a325b0476fb396812cdc6c0847565667e4d670322"
+          "sha256": "3d5a9585df22f07539a8d50fdbb404dfdf7106ca70911500a8a1c95a9e525555"
         },
-        "ipkSize": 160334
+        "ipkSize": 167670
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
@@ -262,21 +262,21 @@
     {
       "id": "com.ecklf.luma",
       "title": "Luma",
-      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/app-icon-large.png",
+      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.4.0/app-icon-large.png",
       "manifest": {
         "id": "com.ecklf.luma",
-        "version": "3.3.0",
+        "version": "3.4.0",
         "type": "native",
         "title": "Luma",
         "appDescription": "A remote-first native webOS launcher.",
-        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/app-icon-large.png",
+        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.4.0/app-icon-large.png",
         "sourceUrl": "https://github.com/ecklf/lg-luma",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.3.0/com.ecklf.luma_3.3.0_arm.ipk",
+        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.4.0/com.ecklf.luma_3.4.0_arm.ipk",
         "ipkHash": {
-          "sha256": "11f31471b4ef7710f131bc20ba5ea16211a1f6cb819a190102b0b471b4ab9160"
+          "sha256": "49f3129f8f1ef2feb8bf96006b25aeecd595ba29a058dc4dce45cf387acc542e"
         },
-        "ipkSize": 55060052
+        "ipkSize": 55077262
       },
       "shortDescription": "A remote-first native webOS launcher.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
@@ -506,18 +506,18 @@
       "iconUri": "https://raw.githubusercontent.com/danzig666/webos-speedtest/main/app/largeIcon.png",
       "manifest": {
         "id": "io.github.danzig666.speedtest",
-        "version": "1.3.0",
+        "version": "1.3.1",
         "type": "web",
         "title": "Speedtest CLI",
         "appDescription": "Runs the official Ookla Speedtest CLI on the TV and shows its live terminal output.",
         "iconUri": "https://raw.githubusercontent.com/danzig666/webos-speedtest/main/app/largeIcon.png",
         "sourceUrl": "https://github.com/danzig666/webos-speedtest",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/danzig666/webos-speedtest/releases/download/v1.3.0/io.github.danzig666.speedtest_1.3.0_all.ipk",
+        "ipkUrl": "https://github.com/danzig666/webos-speedtest/releases/download/v1.3.1/io.github.danzig666.speedtest_1.3.1_all.ipk",
         "ipkHash": {
-          "sha256": "24015051c7f69be9323765bdcfbebaadadc5cf21eb699ffc470ae12001473b4f"
+          "sha256": "8e2968181d3c6b14e862e25a21875b4149ef9298804407eb754883af011e3060"
         },
-        "ipkSize": 452622
+        "ipkSize": 453642
       },
       "shortDescription": "Runs the official Ookla Speedtest CLI on the TV with live terminal output and a graphical results screen. Downloads t...",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/speedtest-cli.html"
@@ -570,21 +570,21 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10138",
+        "version": "0.5.10142",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.138.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
+        "appDescription": "Test build 0.6.0-alpha.142.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.138/app.tivibro.tv_0.5.10138_all.ipk",
-        "ipkSize": 4761018,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.142/app.tivibro.tv_0.5.10142_all.ipk",
+        "ipkSize": 4775982,
         "ipkHash": {
-          "sha256": "979b38033fbe886cd0d1fc3ce291819fec60d4dfba874a8df7b51ce6f9f5a618"
+          "sha256": "d52a133749c652e07ed3f501d586c33a5f5c5ac60f938b65e3b03fd1d47b285b"
         },
-        "tivibroSig": "cn1y+cxRYdM2Csv4BV6zeioYAhTcCDGkF1I4UCrMSzmqsw361X/fHYXUkuaAttzzgi6MqMpkPRZ4SH2uyHsxv/XdjFYOHQuoQIthO7jgonyiNsgkCMmq+KGSAfz6VAQMPLMW0zhIonYWouujh9iB7I9toDAooOigOpeIKg1QHPc3nVWyCLOfdB9f/XDbHu3l4AQh15qMIsSW8Zt1faqBJh3zHWdCm+9tJmwfavoXRMdc7tcQz+KBTLlkM7f86cAVcJ5hXFc0AAnJJ3bydM9tdCx0/nFWUPKi6MgDXDAKz+7P3ucE1k1QmfhCRzu1a6vNi00gtS0/6MSWaDQ6Kgn8mr4TMCq14aqBJx5ZTcntEYTtqkBEmXvvVWCFkOTo6rqsCihhdj1pFukvSqlmadWYNz9gmtNXuS4yNWmwX5YXX7wJhjBC/qTJFFaNowzkl9pxG5iYEflt5Yyyx0vt75ya7RemuKcI49kKACmHgzu6+7GA8X5FiaKLxaLS2Tn5M/Bg"
+        "tivibroSig": "J37kEq8pZfWbghD4ahYjbIc/PThh87m3UjmrNU1OXZIiKR1+K0xvU2w1s8jeS+eEzsbZZrEiqjfa7aSxVBcyv3sPCK4HNCL0e8StjyI+7Cyr9hlS/wah11gMypUgVW0i/+NhC2DlBiJhjZj0KphEpMNPS3lgcU3LBYSFEjAjfbk6ebghgB56S18LFSsxbVN73vIU1IcCvWL5XrUkTru+AQqRujGf1gT8Nqw7PYqAxYlknb/Go97z0ceP37RG0dfjs1wJ5DZkpKX8rJoovyeC6qO1/eTu4SlkUHDTN6T9Vj+Nj6v0yo32qk/wh469CJVo6MBTP1E5cJ2r5uujkeQUvtHg8kZ4NPA+KvQZVftZP+B4ZDLBjR8nu7Olt5ydNpq+84Vtb9v5SJGwbrNjgpFwln43BsbDStvHeWbtrAU2MbsP6BTYBdd9hanAAWPex+So38I+IKl8feDVj1UDjebbIiRJO/6SO4HWMemw7dFsSkH3LGZCFLSPj9xLTlfc9wU0"
       },
-      "shortDescription": "Test build 0.6.0-alpha.138: The IPTV player LG TVs never got",
+      "shortDescription": "Test build 0.6.0-alpha.142: The IPTV player LG TVs never got",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
