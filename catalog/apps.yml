@@ -30,6 +30,20 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/GuiDev1994/aurora-tv/main/repo.json
+- name: Bolli Twitch
+  id: org.bolli.youtube
+  repository: https://github.com/aktiwers/bolli-twitch
+  label: packaged
+  source:
+    type: repo_json
+    url: https://aktiwers.github.io/bolli-homebrew/apps.json
+- name: Bolli YouTube
+  id: org.bolli.youtube
+  repository: https://github.com/aktiwers/bolli-youtube
+  label: packaged
+  source:
+    type: repo_json
+    url: https://aktiwers.github.io/bolli-homebrew/apps.json
 - name: CleanYourTV
   id: com.cleanyourtv.manager
   repository: https://github.com/lasharor/cleanyourtv-WebOS
@@ -132,6 +146,14 @@ apps:
   source:
     type: manifest_url
     url: https://github.com/sostk/native-jelly/releases/latest/download/com.sostk.nativejelly.manifest.json
+- name: NightLight
+  id: org.nightlightwebos.app
+  repository: https://github.com/evilbananas/nightlight-webos
+  label: needs_notice
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/evilbananas/nightlight-webos/gh-pages/repo.json
+  notice: Requires a rooted TV (or root for full features). Read the project README.
 - name: Nuvio Native Legacy
   id: space.nuvio.native.legacy
   repository: https://github.com/iqui27/nuvio-native-legacy
@@ -171,6 +193,14 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/fardroid/Simple-LG-launcher/main/repo/apps.json
+- name: SkiFreeWebOS
+  id: com.ryanspice.skifree
+  repository: https://github.com/ryanspice/SkifreeWebOS
+  label: needs_notice
+  source:
+    type: manifest_url
+    url: https://github.com/ryanspice/skifreewebos/releases/latest/download/com.ryanspice.skifree.manifest.json
+  notice: Requires a rooted TV (or root for full features). Read the project README.
 - name: SonicWebMania
   id: org.sonicwebmania.app
   repository: https://github.com/pustal/SonicWebMania
@@ -242,6 +272,14 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/foxi69/youtube-webos/main/repo.json
+- name: YouTube webOS Cobalt AdFree
+  id: youtube.leanback.v4
+  repository: https://github.com/RF1705/youtube-webos-cobalt-adfree
+  label: needs_notice
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/RF1705/youtube-webos-cobalt-adfree/main/repo.json
+  notice: youtube_collision
 - name: youtube-webos
   id: youtube.leanback.v4
   repository: https://github.com/NicholasBly/youtube-webos
@@ -251,3 +289,11 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/repo.json
+- name: ytnative
+  id: io.github.danzig666.ytnative
+  repository: https://github.com/danzig666/ytnative
+  label: needs_notice
+  source:
+    type: repo_json
+    url: https://danzig666.github.io/ytnative/api/apps.json
+  notice: Requires a rooted TV (or root for full features). Read the project README.
