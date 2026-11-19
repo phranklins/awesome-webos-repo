@@ -100,6 +100,14 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/rudra-avatar/Hearth/main/repo/apps.json
+- name: Hotaru
+  id: com.renjfk.hotaru
+  repository: https://github.com/renjfk/hotaru-webos
+  label: needs_notice
+  source:
+    type: manifest_url
+    url: https://github.com/renjfk/hotaru-webos/releases/latest/download/com.renjfk.hotaru.manifest.json
+  notice: Requires a rooted TV (or root for full features). Read the project README.
 - name: LG Luma
   id: com.ecklf.luma
   repository: https://github.com/ecklf/lg-luma
@@ -161,6 +169,13 @@ apps:
   source:
     type: repo_json
     url: https://github.com/iqui27/nuvio-native-legacy/releases/latest/download/repo.json
+- name: Nuvio TV (Smart)
+  id: space.nuvio.webos
+  repository: https://github.com/NuvioMedia/NuvioTVSmart
+  label: packaged
+  source:
+    type: repo_json
+    url: https://raw.githubusercontent.com/NuvioMedia/NuvioTVWebOS/main/webosbrew/apps.json
 - name: oscar-cam
   id: com.larrysweb.oscarcam
   repository: https://github.com/larrysweb/oscar-cam
@@ -232,6 +247,13 @@ apps:
     type: repo_json
     url: https://alexesmm.github.io/stremcompat-lg-webos/apps.json
   notice: Requires a rooted TV (or root for full features). Read the project README.
+- name: Stremio Origin
+  id: io.github.danzig666.ytnative
+  repository: https://github.com/danzig666/ytnative
+  label: packaged
+  source:
+    type: repo_json
+    url: https://danzig666.github.io/ytnative/api/apps.json
 - name: TiviBro
   id: app.tivibro.tv
   repository: https://github.com/ohmybahgosh/TiviBro
@@ -289,11 +311,3 @@ apps:
   source:
     type: repo_json
     url: https://raw.githubusercontent.com/NicholasBly/youtube-webos/main/repo.json
-- name: ytnative
-  id: io.github.danzig666.ytnative
-  repository: https://github.com/danzig666/ytnative
-  label: needs_notice
-  source:
-    type: repo_json
-    url: https://danzig666.github.io/ytnative/api/apps.json
-  notice: Requires a rooted TV (or root for full features). Read the project README.

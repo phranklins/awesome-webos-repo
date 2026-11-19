@@ -282,23 +282,45 @@
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/hearth.html"
     },
     {
+      "id": "com.renjfk.hotaru",
+      "title": "Hotaru",
+      "iconUri": "https://raw.githubusercontent.com/renjfk/hotaru-webos/main/assets/icon-400.png",
+      "manifest": {
+        "id": "com.renjfk.hotaru",
+        "version": "0.2.1",
+        "type": "native",
+        "title": "Hotaru",
+        "appDescription": "PlayStation Remote Play for LG webOS",
+        "iconUri": "https://raw.githubusercontent.com/renjfk/hotaru-webos/main/assets/icon-400.png",
+        "sourceUrl": "https://github.com/renjfk/hotaru-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/renjfk/hotaru-webos/releases/latest/download/com.renjfk.hotaru_0.2.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "3d0f2e53b957e4528246c971081252964482ae7b4477a9f13236d9df7d9e1a48"
+        },
+        "ipkSize": 3630816
+      },
+      "shortDescription": "PlayStation Remote Play for LG webOS",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/hotaru.html"
+    },
+    {
       "id": "org.ohmybahgosh.lgusb2eth0",
       "title": "LG-USB-2-ETH0",
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
       "manifest": {
         "id": "org.ohmybahgosh.lgusb2eth0",
-        "version": "2.11.41",
+        "version": "2.11.44",
         "type": "web",
         "title": "LG-USB-2-ETH0",
         "appDescription": "Make a USB Ethernet adapter the TV's eth0",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/LG-USB-2-ETH0/main/webos-app/src/icon160.png",
         "sourceUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.41/org.ohmybahgosh.lgusb2eth0_2.11.41_all.ipk",
+        "ipkUrl": "https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases/download/v2.11.44/org.ohmybahgosh.lgusb2eth0_2.11.44_all.ipk",
         "ipkHash": {
-          "sha256": "c45f85a3fbb859912823f76519da00934c1ab4903518012c165a1c7010055942"
+          "sha256": "c47958f8d06c371a0bf052282b028dec8386df99f850aa23a055e0234e2bf431"
         },
-        "ipkSize": 170500
+        "ipkSize": 177098
       },
       "shortDescription": "Make a USB Ethernet adapter the TV's eth0",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-usb-2-eth0.html"
@@ -306,21 +328,21 @@
     {
       "id": "com.ecklf.luma",
       "title": "Luma",
-      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.6.2/app-icon-large.png",
+      "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.10.0/app-icon-large.png",
       "manifest": {
         "id": "com.ecklf.luma",
-        "version": "3.6.2",
+        "version": "3.10.0",
         "type": "native",
         "title": "Luma",
         "appDescription": "A remote-first native webOS launcher.",
-        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.6.2/app-icon-large.png",
+        "iconUri": "https://github.com/ecklf/lg-luma/releases/download/v3.10.0/app-icon-large.png",
         "sourceUrl": "https://github.com/ecklf/lg-luma",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.6.2/com.ecklf.luma_3.6.2_arm.ipk",
+        "ipkUrl": "https://github.com/ecklf/lg-luma/releases/download/v3.10.0/com.ecklf.luma_3.10.0_arm.ipk",
         "ipkHash": {
-          "sha256": "33832d6ff0c7d9e72f4e4f189d0354de51406ea432d59f45b7b28cc614ac2eb6"
+          "sha256": "28a03249685944f8b60262c96d00a0df3849bc8450ea28c03db779126688a97d"
         },
-        "ipkSize": 55006658
+        "ipkSize": 21750546
       },
       "shortDescription": "A remote-first native webOS launcher.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/lg-luma.html"
@@ -397,16 +419,16 @@
       "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
       "manifest": {
         "id": "io.github.ihtisham1211.nativetv",
-        "version": "0.125.0",
+        "version": "0.126.0",
         "type": "web",
         "title": "Native Tv",
         "appDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
         "iconUri": "https://raw.githubusercontent.com/ihtisham1211/native-tv/main/native-tv/assets/dashboard-app/assets/icon130.png",
         "sourceUrl": "https://github.com/ihtisham1211/native-tv",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.125.0_all.ipk",
+        "ipkUrl": "https://github.com/ihtisham1211/native-tv/releases/latest/download/io.github.ihtisham1211.nativetv_0.126.0_all.ipk",
         "ipkHash": {
-          "sha256": "c6cf046d42c20cb7f0c89ece0cb2dd4a5f0a6d2682c709bd230168051c351cfb"
+          "sha256": "3dc20381f157ef07423a2e83ec6d585308e977395ad615dbc6ce20d3a1a6a958"
         }
       },
       "shortDescription": "Your TV, your rules. Dashboard, privacy controls and Home Assistant bridge for rooted LG TVs",
@@ -454,6 +476,28 @@
       },
       "shortDescription": "Unofficial native Nuvio client for LG webOS",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/nuvio-native-legacy.html"
+    },
+    {
+      "id": "space.nuvio.webos",
+      "title": "Nuvio TV",
+      "iconUri": "https://raw.githubusercontent.com/NuvioMedia/NuvioTVWebOS/main/icon.png",
+      "manifest": {
+        "id": "space.nuvio.webos",
+        "version": "1.4.4",
+        "type": "web",
+        "title": "Nuvio TV",
+        "appDescription": "Locally packaged LG webOS build for Nuvio TV.",
+        "iconUri": "https://raw.githubusercontent.com/NuvioMedia/NuvioTVWebOS/main/icon.png",
+        "sourceUrl": "https://github.com/NuvioMedia/NuvioWeb",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/NuvioMedia/NuvioTVSmart/releases/download/1.4.4/NuvioTV-webOS-1.4.4.ipk",
+        "ipkHash": {
+          "sha256": "b1c6f5755a1b99430b776342f589cca92dabdae4180637affd981aa584956240"
+        },
+        "ipkSize": 8448166
+      },
+      "shortDescription": "Locally packaged LG webOS build for Nuvio TV.",
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/nuvio-tv-smart.html"
     },
     {
       "id": "com.larrysweb.oscarcam",
@@ -573,16 +617,16 @@
       "iconUri": "https://raw.githubusercontent.com/pustal/SonicWebMania/main/webos/largeIcon.png",
       "manifest": {
         "id": "org.sonicwebmania.app",
-        "version": "3.3.0",
+        "version": "3.4.1",
         "type": "native",
         "title": "SonicWebMania",
         "appDescription": "Sonic Mania decompilation for webOS. Bring your own game data.",
         "iconUri": "https://raw.githubusercontent.com/pustal/SonicWebMania/main/webos/largeIcon.png",
         "sourceUrl": "https://github.com/pustal/SonicWebMania",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/pustal/SonicWebMania/releases/latest/download/org.sonicwebmania.app_3.3.0_arm.ipk",
+        "ipkUrl": "https://github.com/pustal/SonicWebMania/releases/latest/download/org.sonicwebmania.app_3.4.1_arm.ipk",
         "ipkHash": {
-          "sha256": "241f6221655d4d81b30a0d1a878c8232a879b85c419a962742a6af74fcc11a1f"
+          "sha256": "ba0325e69055bdae869daa3935048565b1f92d7548b53e528c786e175870fe2a"
         }
       },
       "shortDescription": "Sonic Mania decompilation for webOS. Bring your own game data.",
@@ -637,16 +681,16 @@
       "iconUri": "https://alexesmm.github.io/stremcompat-lg-webos/icon.png",
       "manifest": {
         "id": "io.github.alexesmm.legacytv",
-        "version": "4.3.5",
+        "version": "4.5.2",
         "type": "web",
         "title": "StremCompat",
         "appDescription": "Your Stremio or Nuvio account and addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root.",
         "iconUri": "https://alexesmm.github.io/stremcompat-lg-webos/icon.png",
         "sourceUrl": "https://github.com/StremCompat/stremcompat",
         "rootRequired": false,
-        "ipkUrl": "https://alexesmm.github.io/stremcompat-lg-webos/io.github.alexesmm.legacytv_4.3.5_all.ipk",
+        "ipkUrl": "https://alexesmm.github.io/stremcompat-lg-webos/io.github.alexesmm.legacytv_4.5.2_all.ipk",
         "ipkHash": {
-          "sha256": "b832fc27ce8f06c0b99e09ef662d87e669916fe4851304312d0c9c38cbe6c56a"
+          "sha256": "0ad7f44ff97a2509b72964039ed4efb737ecdce9e551df5a2593fb58c25f43cc"
         }
       },
       "shortDescription": "Your Stremio or Nuvio account and addons on older LG TVs (webOS 3 and newer). Unofficial, and it needs no root.",
@@ -658,21 +702,21 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10160",
+        "version": "0.5.10174",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.160.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
+        "appDescription": "Test build 0.6.0-alpha.174.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.160/app.tivibro.tv_0.5.10160_all.ipk",
-        "ipkSize": 6477036,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.174/app.tivibro.tv_0.5.10174_all.ipk",
+        "ipkSize": 6539272,
         "ipkHash": {
-          "sha256": "f192d66bcf3741cf600db7c407fe599ec039d5279b952fbfc20ed4e87cf634c4"
+          "sha256": "d505dcce432b602b24ff0b9d343b8b87862a287376965c706be3f75825578168"
         },
-        "tivibroSig": "hNs6IZ8b0YAM5rZYGL+oluVJwmjSC/sMttzjY11LobsJfB86oU98BpP57/hEr0UHs8b/0HDsRytcfwDBnIy7iHPMZp1dgx6u3Mc011/xgZLwmCL57kemwG2VB+KXl+GXNiiORHsr6wvDd4dr//4SscPgZGo4N9MIw8uvRpAuD3v//X0vSWqHdgahW37KaCq6bK/7R/iqaAi9X7545MdJjfnw+e4NKn7q7yBjdZytNzULJLc403PWz00huBHcmFOJIXNDJCpwc46J9yt7zBQPwEpHvw5ckHftEOTJxJb9WYOPC8j6fk/CwQnWsP/Non1HB5FQdEW6FG/nPaJFom9Rx4Z8FvRd7G//3Stnu1BaFd8L/ceqbhx8tAhbdPRiWvCtHDS1yXqmRxNNaqLIC3LHfA+XsySI1GaNIR9s+KG/wOgAVAsxeuUv9iJEzD8bTZXqTXzq6Tcb6AS+6R2ZIFRbvC1+VS+1FWgYOAZv+jiLNYVYAu947HjVOK1QlpPTNXr6"
+        "tivibroSig": "NSgrlVbjlKHYYolRUaM6b/9MPiGAux5xYOtZo0GkFTLPfOHrIxiYXRboU1tHdvZH31czalMEzLG2SrrbdKXTqabd3kVt5TejTbFHVUcZrFO8eLhGHV+80fo73IvNAPncfOU6zukP4MQfhaWmIQ/LbNUhPLFxq6UkH2iDnrVwbk6t8kMSkGnGhRof9qCBHwmKZN8r2uXJJJupZv2UgxDbcWlcdY2lE5yJhijdnRvOmUigOkLMedHhOsVhab+8zwUxQJE6oJtFAC3ids/+bbL9jaC3g1HjWyEVZdd9g5U4W0YyLnrkKejWwnMNY8b0ANGPzkvHHUZncEHxuePLZ+vP3zHj+xVLZ7Y5cYobct2fFBJkobtB8epNHWfI/lAN2/F/rAmPyZFedZpYXuZC1lvPKtb6Yg8Co7vY0KyN0wEucHTcpSMIofUiGebqtofjUxJu3qHekk3StEjqvu00uLcPBk785XKHzX0H11IxsoVWANVP5mbKAEQ+JSu/DPPAQu58"
       },
-      "shortDescription": "Test build 0.6.0-alpha.160: The IPTV player LG TVs never got",
+      "shortDescription": "Test build 0.6.0-alpha.174: The IPTV player LG TVs never got",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
@@ -781,24 +825,24 @@
     {
       "id": "io.github.danzig666.ytnative",
       "title": "ytnative",
-      "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.54/crates/app/pkg/icon.png",
+      "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.62/crates/app/pkg/icon.png",
       "manifest": {
         "appDescription": "SmartTube ported to LG webOS: a native (Rust) YouTube client for the TV, without ads",
-        "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.54/crates/app/pkg/icon.png",
+        "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.62/crates/app/pkg/icon.png",
         "id": "io.github.danzig666.ytnative",
         "ipkHash": {
-          "sha256": "71794176c32ff2d56d67c6a4e806e173f7223b3b127ecda8a24ed8f4eacf2b0d"
+          "sha256": "8b544750c5f12baf6b7e87bde653b95cfecd582e8df4963cd812ed096a93b466"
         },
-        "ipkSize": 13634230,
-        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.54/io.github.danzig666.ytnative_0.2.54_arm.ipk",
+        "ipkSize": 13652524,
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.62/io.github.danzig666.ytnative_0.2.62_arm.ipk",
         "rootRequired": false,
         "sourceUrl": "https://github.com/danzig666/ytnative",
         "title": "ytnative",
         "type": "native",
-        "version": "0.2.54"
+        "version": "0.2.62"
       },
       "shortDescription": "SmartTube for LG webOS: a native YouTube client without ads",
-      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/ytnative.html"
+      "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/stremio-origin.html"
     }
   ]
 }
