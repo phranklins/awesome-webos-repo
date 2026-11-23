@@ -108,13 +108,6 @@ apps:
     type: manifest_url
     url: https://github.com/renjfk/hotaru-webos/releases/latest/download/com.renjfk.hotaru.manifest.json
   notice: Requires a rooted TV (or root for full features). Read the project README.
-- name: LG Luma
-  id: com.ecklf.luma
-  repository: https://github.com/ecklf/lg-luma
-  label: packaged
-  source:
-    type: repo_json
-    url: https://github.com/ecklf/lg-luma/releases/latest/download/repo.json
 - name: LG-USB-2-ETH0
   id: org.ohmybahgosh.lgusb2eth0
   repository: https://github.com/ohmybahgosh/LG-USB-2-ETH0
@@ -270,6 +263,13 @@ apps:
   source:
     type: manifest_url
     url: https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases/latest/download/org.ohmybahgosh.entware.manifest.json
+- name: WiiOS
+  id: com.wiios.launcher
+  repository: https://github.com/KaykCaputo/WiiOS-webOS
+  label: packaged
+  source:
+    type: manifest_url
+    url: https://github.com/kaykcaputo/wiios-webos/releases/latest/download/com.wiios.launcher.homebrew.manifest.json
 - name: YouTube AdFree
   id: youtube.leanback.v4
   repository: https://github.com/webosbrew/youtube-webos
