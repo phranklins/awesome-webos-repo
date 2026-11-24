@@ -159,17 +159,17 @@
       "iconUri": "https://raw.githubusercontent.com/josippapez/dts_restore_plus/main/assets/icon160.png",
       "manifest": {
         "id": "io.github.josippapez.dtsenabler",
-        "version": "2.86.3",
+        "version": "2.86.4",
         "type": "web",
         "title": "DTS Enabler",
         "appDescription": "Restore DTS and Dolby TrueHD/MLP audio on rooted LG webOS 25 TVs, including DTS and TrueHD in MKV, MP4, TS and M2TS. Also offers exact-firmware experimental DTS support for C2/G2 via explicit opt-in. Requires the Homebrew Channel + root.",
         "iconUri": "https://raw.githubusercontent.com/josippapez/dts_restore_plus/main/assets/icon160.png",
         "sourceUrl": "https://github.com/josippapez/dts_restore_plus",
         "rootRequired": true,
-        "ipkUrl": "https://github.com/josippapez/dts_restore_plus/releases/download/webos25-2.86.3/io.github.josippapez.dtsenabler_2.86.3_all.ipk",
-        "ipkSize": 38197730,
+        "ipkUrl": "https://github.com/josippapez/dts_restore_plus/releases/download/webos25-2.86.4/io.github.josippapez.dtsenabler_2.86.4_all.ipk",
+        "ipkSize": 38198240,
         "ipkHash": {
-          "sha256": "6947b724c5875895da767b8e9f0ec27d46e53fcedd5872caddca23a0af7f38b5"
+          "sha256": "412e19b9f5cd8a0b29af14a74d3f75393417eb9dcd71ab49cbda88753aca7680"
         }
       },
       "shortDescription": "Restore DTS and Dolby TrueHD/MLP audio on rooted LG webOS 25 TVs, including DTS and TrueHD in MKV, MP4, TS and M2TS....",
@@ -461,18 +461,18 @@
       "iconUri": "https://raw.githubusercontent.com/NuvioMedia/NuvioTVWebOS/main/icon.png",
       "manifest": {
         "id": "space.nuvio.webos",
-        "version": "1.4.5",
+        "version": "1.4.6",
         "type": "web",
         "title": "Nuvio TV",
         "appDescription": "Locally packaged LG webOS build for Nuvio TV.",
         "iconUri": "https://raw.githubusercontent.com/NuvioMedia/NuvioTVWebOS/main/icon.png",
         "sourceUrl": "https://github.com/NuvioMedia/NuvioWeb",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/NuvioMedia/NuvioTVSmart/releases/download/1.4.5/NuvioTV-webOS-1.4.5.ipk",
+        "ipkUrl": "https://github.com/NuvioMedia/NuvioTVSmart/releases/download/1.4.6/NuvioTV-webOS-1.4.6.ipk",
         "ipkHash": {
-          "sha256": "21c58394d081aaeeb5280bd9db9a341efe64e1f008a52b48a98cdf6a9e16e97e"
+          "sha256": "fdc1d0496ed022c2e2212688fc21a94aaf1aeac9f18db78b9f7b4f5863ad5ff7"
         },
-        "ipkSize": 8460056
+        "ipkSize": 8460372
       },
       "shortDescription": "Locally packaged LG webOS build for Nuvio TV.",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/nuvio-tv-smart.html"
@@ -680,21 +680,21 @@
       "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
       "manifest": {
         "id": "app.tivibro.tv",
-        "version": "0.5.10205",
+        "version": "0.5.10213",
         "type": "web",
         "title": "TiviBro",
-        "appDescription": "Test build 0.6.0-alpha.205.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription, with live sports scores and Multiview",
+        "appDescription": "Test build 0.6.0-alpha.213.  Free, guide-first IPTV player for your own Xtream Codes, M3U or Stalker portal subscription, with live sports scores and Multiview",
         "iconUri": "https://raw.githubusercontent.com/ohmybahgosh/TiviBro/main/logos/clean/tivibro-icon-512.png",
         "sourceUrl": "https://github.com/ohmybahgosh/TiviBro",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.205/app.tivibro.tv_0.5.10205_all.ipk",
-        "ipkSize": 8421284,
+        "ipkUrl": "https://github.com/ohmybahgosh/TiviBro/releases/download/v0.6.0-alpha.213/app.tivibro.tv_0.5.10213_all.ipk",
+        "ipkSize": 9478994,
         "ipkHash": {
-          "sha256": "f57790cbd72d23d5e8832b4a16d1a267ac9ece032194d0b7f13064dc59e97c5b"
+          "sha256": "80f8a0f26641b07edbba32f81bc2a3cfc123b765e8e4a77227d550500893be51"
         },
-        "tivibroSig": "Fe1WI4rt5S3T27UmabGCgbs5C5pDgXFiyPW+9saGBgpVJMfRyxuvYXNSHUm0A+0/a7W/7e0pg2dQy0bRbUEfI8DqJEvELInyEsPkrobH3FF1OAUuZ/raktUKWEO7KJdW4G/BHMMYBC1ImAZUJESP8PsQx6mB3gG0yDfkZjjdqt4X7WlUxXnnLUYnh1e6EWbJmowDpbZ2MWLcC49a9xEW75Beou296HQkmYQK/emCpwyPdZ+9YKMWApwWYv+J+wqAqf2piT9ixb7a+/yZv4aftYctPXPSnU7vSwuLx8SC4lLvH8liqLnWWsTgn9JBK4dLc4c13HbbiOIJ1ZV03YfhcsgH+CQ6c1PKBGstXH0vX9OWc7P7tVqVj3M/w4Dzhab25T5NbQ6OITBu0fHcwRqfzqJlHFYQ9Pr+z52B36LMlQGRtcpbEF/g/QigaGssmy98HRaagSBsKiQ+jXZSC/Hd787/e+XxCjMVFiL+THFy4ksDyf9WPD1YIIz2YG2G5rod"
+        "tivibroSig": "FEOCS9zJFF3GGIb3SUzH4vEEhnMYRXmwYPorY451RGT7tvEsdjp6m+qQji6nks30EKJpEluCml0LdXwT6j59oA1kiF1KuYruixw9EkSlQKfE5T/dgGKIUYrlH5awDtrANMryBHN11gD2HnYTNwAWJ2fmvjFMmfaK2+DpSdpsiXSn4i3Q89GbyEVrenR1aUABziFFRWIUgRHgpRreHoLpLM10LwLkKhs7H/VkqPdQ2sBvtNPa7brTeJj/8po3FvdJuQlFaricG97QdPNRx4sPuea3I8ZjuMoA22cUv90qwFetzJ1QQyHtYydis5hqF4uYmJjhpROZ5JXX6hWQvhx7fMcG7auqge6lYdrbcDWq2ovDPN0UaYXS6GYH/iO/bXY69GMsWU9UlnOPqriYKBlCkhAVGTlbYS+C/AX42CWoj6P1YSJ/T7tHB+C8x1vEZhWaQLrETd4TNhSzkoASqTz8RVYwoKcifwmqpJKkAvThSgBfgzEtbBWkAKbpYiy5iCai"
       },
-      "shortDescription": "Test build 0.6.0-alpha.205: The ultimate IPTV player for LG webOS",
+      "shortDescription": "Test build 0.6.0-alpha.213: The ultimate IPTV player for LG webOS",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/tivibro.html"
     },
     {
@@ -721,19 +721,19 @@
     {
       "id": "com.wiios.launcher",
       "title": "WiiOS",
-      "iconUri": "https://raw.githubusercontent.com/KaykCaputo/WiiOS-webOS/040194a9b6e04ea82a68209cd9dbe98556c0157c/icon.png",
+      "iconUri": "https://raw.githubusercontent.com/KaykCaputo/WiiOS-webOS/84e76e1db9b8998d86a6ec2f35122c10e02966ec/icon.png",
       "manifest": {
         "id": "com.wiios.launcher",
-        "version": "0.3.40",
+        "version": "0.3.42",
         "type": "web",
         "title": "WiiOS",
         "appDescription": "A customizable channel launcher for LG webOS TVs.",
-        "iconUri": "https://raw.githubusercontent.com/KaykCaputo/WiiOS-webOS/040194a9b6e04ea82a68209cd9dbe98556c0157c/icon.png",
+        "iconUri": "https://raw.githubusercontent.com/KaykCaputo/WiiOS-webOS/84e76e1db9b8998d86a6ec2f35122c10e02966ec/icon.png",
         "sourceUrl": "https://github.com/KaykCaputo/WiiOS-webOS",
         "rootRequired": false,
-        "ipkUrl": "https://github.com/kaykcaputo/wiios-webos/releases/latest/download/com.wiios.launcher_0.3.40_homebrew_all.ipk",
+        "ipkUrl": "https://github.com/kaykcaputo/wiios-webos/releases/latest/download/com.wiios.launcher_0.3.42_all.ipk",
         "ipkHash": {
-          "sha256": "dd86eb920c1713b8bdb800a7965894df9542c4d2c77d8327e285aef31c346846"
+          "sha256": "7e62bd8097b654c79d952b5f6b67d0c22d5fbec24aa37ba35dd0760eadf85717"
         }
       },
       "shortDescription": "A customizable channel launcher for LG webOS TVs.",
@@ -824,21 +824,21 @@
     {
       "id": "io.github.danzig666.ytnative",
       "title": "ytnative",
-      "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.72/crates/app/pkg/icon.png",
+      "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.73/crates/app/pkg/icon.png",
       "manifest": {
         "appDescription": "SmartTube ported to LG webOS: a native (Rust) YouTube client for the TV, without ads",
-        "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.72/crates/app/pkg/icon.png",
+        "iconUri": "https://raw.githubusercontent.com/danzig666/ytnative/v0.2.73/crates/app/pkg/icon.png",
         "id": "io.github.danzig666.ytnative",
         "ipkHash": {
-          "sha256": "79bf14b866fb2b2e4ce758581eb27ff7f206c5a637478a07fe205a9f49e6555e"
+          "sha256": "c000eb78004a8a53c17f33452d876860e572e16a8e335fe549128f131403f1fb"
         },
-        "ipkSize": 14377220,
-        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.72/io.github.danzig666.ytnative_0.2.72_arm.ipk",
+        "ipkSize": 14807968,
+        "ipkUrl": "https://github.com/danzig666/ytnative/releases/download/v0.2.73/io.github.danzig666.ytnative_0.2.73_arm.ipk",
         "rootRequired": false,
         "sourceUrl": "https://github.com/danzig666/ytnative",
         "title": "ytnative",
         "type": "native",
-        "version": "0.2.72"
+        "version": "0.2.73"
       },
       "shortDescription": "SmartTube for LG webOS: a native YouTube client without ads",
       "fullDescriptionUrl": "https://raw.githubusercontent.com/phranklins/awesome-webos-repo/main/descriptions/ytnative.html"
